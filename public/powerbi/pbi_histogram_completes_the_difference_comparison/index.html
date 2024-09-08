@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>PowerBI柱状图完成差异对比 - </title><meta name="author" content="richfan">
+<meta name="description" content="在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓
+
+这种可视化方式最常用的就是同期对比，或者是和目标值的对比。我们这里就使用两种常用的方法来进行制作演示，了解了思路后，可以根据实际情况做出更多的效果。
+【同比变化演示】
+  
+    ">
+  <meta itemprop="name" content="PowerBI柱状图完成差异对比">
+  <meta itemprop="description" content="在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓
+这种可视化方式最常用的就是同期对比，或者是和目标值的对比。我们这里就使用两种常用的方法来进行制作演示，了解了思路后，可以根据实际情况做出更多的效果。
+【同比变化演示】 ">
+  <meta itemprop="datePublished" content="2024-08-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-08-14T00:00:00+00:00">
+  <meta itemprop="wordCount" content="112">
+  <meta itemprop="keywords" content="PBI"><meta property="og:url" content="http://localhost:1313/powerbi/pbi_histogram_completes_the_difference_comparison/">
+  <meta property="og:title" content="PowerBI柱状图完成差异对比">
+  <meta property="og:description" content="在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓
+这种可视化方式最常用的就是同期对比，或者是和目标值的对比。我们这里就使用两种常用的方法来进行制作演示，了解了思路后，可以根据实际情况做出更多的效果。
+【同比变化演示】 ">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="powerbi">
+    <meta property="article:published_time" content="2024-08-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-08-14T00:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PowerBI柱状图完成差异对比">
+  <meta name="twitter:description" content="在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓
+这种可视化方式最常用的就是同期对比，或者是和目标值的对比。我们这里就使用两种常用的方法来进行制作演示，了解了思路后，可以根据实际情况做出更多的效果。
+【同比变化演示】 ">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/powerbi/pbi_histogram_completes_the_difference_comparison/" title="PowerBI柱状图完成差异对比 - " /><link rel="next" type="text/html" href="http://localhost:1313/powerbi/pbi_dynamicformat/" title="PowerBI设置单位为万" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/powerbi/pbi_histogram_completes_the_difference_comparison/index.md" title="PowerBI柱状图完成差异对比 - "><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "PowerBI柱状图完成差异对比",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/powerbi\/pbi_histogram_completes_the_difference_comparison\/"
+    },"genre": "powerbi","wordcount":  112 ,
+    "url": "http:\/\/localhost:1313\/powerbi\/pbi_histogram_completes_the_difference_comparison\/","datePublished": "2024-08-14T00:00:00+00:00","dateModified": "2024-08-14T00:00:00+00:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "richfan"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title=""><span class="header-title-text"></span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/archives/"
+                
+                
+              ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title=""><span class="header-title-text"></span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/archives/"
+                  
+                  
+                ><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                ><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><article class="page single special">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster">PowerBI柱状图完成差异对比</h1></div><div class="content" id="content"><p>在PowerBI里面，默认自带的原生视觉对象，是可以自由设置功能最丰富了。比如今天要演示的柱状图，就可以通过对视觉对象误差线的设置，来实现同比变化值突出显示的效果。不仅可以标记变化长度，还能够使用颜色标记增长为绿色，下降为红色，同时标记出增长变化率。这些都是在同一个视觉对象上完成的，效果如下↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574303051.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>这种可视化方式最常用的就是同期对比，或者是和目标值的对比。我们这里就使用两种常用的方法来进行制作演示，了解了思路后，可以根据实际情况做出更多的效果。</p>
+<h2 id="同比变化演示" class="heading-element"><span>【同比变化演示】</span>
+  <a href="#%e5%90%8c%e6%af%94%e5%8f%98%e5%8c%96%e6%bc%94%e7%a4%ba" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>首先是同比变化情况，我们的数据是2023和2024两年产品每月的销售金额，要在图形上直观的展示2024年对比2023年的增长变化情况，首先准备数据，格式很简单，就是每月每个产品的销售金额，如下↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574323152.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>然后把数据导入到PowerBI里面，先创建两个最基本的度量值，销售金额和上年同期的销售金额，并计算出金额的差值↓</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl">销售金额 = SUM([GMV])
+</span></span><span class="line"><span class="cl">上年销售金额 = 
+</span></span><span class="line"><span class="cl"><span class="nf">CALCULATE</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="na">[销售金额]</span><span class="o">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nf">DATEADD</span><span class="p">(</span><span class="na">&#39;_date&#39;[Date]</span><span class="o">,-</span><span class="m">1</span><span class="o">,</span><span class="nf">YEAR</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="err">同比差值</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="na">[销售金额]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="na">[上年销售金额]</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574343043.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>这三个字段计算好了之后，就可以在PowerBI里面进行可视化操作了，使用的视觉对象是默认的簇状柱形图，演示一下过程↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574123064.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>然后简单设置一下本年和上年的颜色。上一年设置成白色，黑色边框填充；今年的值设置成黑色，黑色边框填充↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574153055.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>然后再设置一下布局效果，把重叠打开，设置一下类别间距和系列间距，两个柱状图就有了一定的融合效果，就基本上有了我们需要的效果了↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574180136.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>接下来新建两个度量值，用来分别展示比上期高和比上期低的值↓</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl">同比增长 = IF([同比差值] &gt; 0,[最大值])
+</span></span><span class="line"><span class="cl">同比下降 = IF([同比差值] &lt; 0,[最大值])
+</span></span><span class="line"><span class="cl"><span class="err">把度量值分别放入更多设置的误差项里面。需要设置一下颜色，宽度根据实际情况设置，并且把边框颜色设置为0。</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574200087.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>这是增长的绿色部分，下降的红色部分同理。基本上就得到了我们想要的效果了。最后就是简单的装饰部分，把增减的部分放入值进行显示，并自定义一个颜色度量值用来自动变化颜色就可以了↓</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl">color差值 = 
+</span></span><span class="line"><span class="cl"><span class="n">IF</span><span class="p">(</span><span class="na">[销售金额]</span><span class="o">&gt;</span><span class="na">[上年销售金额]</span><span class="o">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s">&#34;#32a11b&#34;</span><span class="o">,</span><span class="s">&#34;#c90032&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574223058.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>如果不想展示差异的绝对值，也可以使用变化百分比来进行性展示，度量值和效果如下↓</p>
+<p>同比百分比 = DIVIDE([销售金额] - [上年销售金额],[上年销售金额])</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/17246574233059.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="目标完成率演示" class="heading-element"><span>【目标完成率演示】</span>
+  <a href="#%e7%9b%ae%e6%a0%87%e5%ae%8c%e6%88%90%e7%8e%87%e6%bc%94%e7%a4%ba" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>目标完成率思路是完全一样的，只是对比的内容是目标值。数据字段如下，多了一列目标值，其他都是一样的↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742431910.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>导入PowerBI，然后使用日期维度表建立关系↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742530511.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>下面按照同样的思路，进行度量值的建立和绘图↓</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl">_销售金额 = SUM([GMV])
+</span></span><span class="line"><span class="cl">_目标 = SUM([GMV目标])
+</span></span><span class="line"><span class="cl">_差值 = [_销售金额]-[_目标]
+</span></span><span class="line"><span class="cl">_最大值 = MAX([_目标],[_销售金额])
+</span></span><span class="line"><span class="cl">_目标完成 = IF([_销售金额] &gt; 0,[_最大值])
+</span></span><span class="line"><span class="cl">_目标未完成 = IF([_销售金额] &lt; 0,[_最大值])
+</span></span><span class="line"><span class="cl">_color差值 = 
+</span></span><span class="line"><span class="cl"><span class="n">IF</span><span class="p">(</span><span class="na">[_销售金额]</span><span class="o">&gt;</span><span class="na">[_目标]</span><span class="o">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="s">&#34;#32a11b&#34;</span><span class="o">,</span><span class="s">&#34;#c90032&#34;</span><span class="p">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742630412.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>也可以按照目标完成率来进行展示↓</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl"><span class="err">完成率</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">DIVIDE</span><span class="p">(</span><span class="na">[_销售金额]</span><span class="o">,</span><span class="na">[_目标]</span><span class="p">)</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742730513.webp" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<p>如果为了更方便二者进行筛选，可以做一个书签，根据需求进行选择↓</p>
+<p><img loading="lazy" src="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif" alt="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif" srcset="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif?size=small, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif?size=medium 1.5x, https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif?size=large 2x" data-title="https://fastly.jsdelivr.net/gh/richbridge/imgbed@main/powerbi/PBI_histogram_completes_the_difference_comparison/172465742830414.gif" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></p>
+<h2 id="本文使用的数据excel文件和powerbi文件" class="heading-element"><span>【本文使用的数据Excel文件和PowerBI文件↓】</span>
+  <a href="#%e6%9c%ac%e6%96%87%e4%bd%bf%e7%94%a8%e7%9a%84%e6%95%b0%e6%8d%aeexcel%e6%96%87%e4%bb%b6%e5%92%8cpowerbi%e6%96%87%e4%bb%b6" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-dax" data-lang="dax"><span class="line"><span class="cl">链接：https://pan.baidu.com/s/1IUb6NSbKnpEoOksvCm3y5Q?pwd=3zzl 
+</span></span><span class="line"><span class="cl">提取码：3zzl
+</span></span><span class="line"><span class="cl">链接：https://pan.baidu.com/s/18ep-lrLsyj5opUEzYKGDWQ?pwd=5868 
+</span></span><span class="line"><span class="cl"><span class="err">提取码：</span><span class="m">5868</span></span></span></code></pre></td></tr></table>
+</div>
+</div></div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.134.1"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.11"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
+              <a href="/"></a></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"复制到剪贴板","editLockTitle":"锁定可编辑代码块","editUnLockTitle":"解锁可编辑代码块","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验。"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.11"};</script><script src="/js/theme.min.js" defer></script></body>
+</html>
