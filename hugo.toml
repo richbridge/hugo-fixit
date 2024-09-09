@@ -136,7 +136,7 @@ enableEmoji = true
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.132.0"
+    min = "0.121.0"
 
 # -------------------------------------------------------------------------------------
 # Markup related configuration in Hugo
@@ -1160,7 +1160,7 @@ enableEmoji = true
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        # _custom = "/css/_custom.scss"
+        _custom = "/css/_custom.scss"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
