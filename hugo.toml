@@ -16,7 +16,7 @@ title = "梵刹 - 个人学习心得分享"
 baseURL = "http://localhost:1313"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
-theme = "FixIt"
+theme = "fixit"
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
@@ -133,10 +133,10 @@ enableEmoji = true
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-imports
 # -------------------------------------------------------------------------------------
 
-# [module]
-#   [module.hugoVersion]
-#     extended = true
-#     min = "0.132.0"
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.132.0"
 
 # -------------------------------------------------------------------------------------
 # Markup related configuration in Hugo
