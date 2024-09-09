@@ -20,25 +20,25 @@ categories:
 
 模型资源管理器和计算组创作
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-1.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-1.avif#center)
 
 ### 步骤分解
 
 #### 切换模型视图
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-2.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-2.avif#center)
 
 #### 新建计算组
 
 右键语义模型中的计算组，选择新建计算组
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-3.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-3.avif#center)
 
 #### 设置动态格式
 
 建立计算组后，会自动建立一个计算项，选中计算项，在“属性”面板中打开动态格式字符串
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-4.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-4.avif#center)
 
 将以下代码复制到动态格式窗格中,并设置一个合适的计算项名称(比如“格式化字符串”)
 
@@ -60,7 +60,7 @@ SWITCH (
 
 选中你想格式化字符串的视觉对象，将“计算列”拖至筛选面板的“此视觉对象上的筛选器”，选中刚刚构建的计算项“格式化字符串”，表格中的数值就切换成以“万”和“亿”为单位的显示格式了。
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-5.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/1-5.avif#center)
 
 ### 思考
 
@@ -88,7 +88,7 @@ IF(SELECTEDMEASURENAME() in {"交易金额","订单数","交易用户数"},__cus
 
 ### 1：第一步，BI中新建单位表
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-1.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-1.avif#center)
 
 这是dax代码
 
@@ -105,7 +105,7 @@ SELECTCOLUMNS(
 
 建表后
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-2.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-2.avif#center)
 
 ###  2：第二步，准备度量值
 
@@ -121,11 +121,11 @@ SELECTCOLUMNS(
 
 点选度量值以后，先设置度量值格式为动态格式
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-3.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-3.avif#center)
 
 然后进入度量值格式设置
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-4.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-4.avif#center)
 
 在格式栏，设置以下参数，这里的代码意思是，这个度量值保留一位小数，并且用连接符号"&"拼接单位这张表里的单位名称，我们在上一步已经得到了"23"如果再拼接上，目前被选择的"万"，是不是就能得到"23万"了呢?
 
@@ -137,14 +137,14 @@ SELECTCOLUMNS(
 
 将单位拉入我们的卡片图筛选器，勾选单选，并勾选"万"
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-5.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-5.avif#center)
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-6.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-6.avif#center)
 
 看一下最后效果，已经是我们的预期了，同样的道理，也适用与表格或者其他形式的视觉对象
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-7.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-7.avif#center)
 
 并且我们可以通过切换切片器的单位，去切换我们的展示单位。如下面我们切换到"亿元"，其他的单位都是支持的。
 
-![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-8.avif#pic_center)
+![](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/powerbi/PBI_dynamicformat/2-8.avif#center)
