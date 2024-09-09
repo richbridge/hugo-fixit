@@ -22,12 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 'latest'
-      - name: Install atomic-algolia
-        run: npm install atomic-algolia
-      - name: Build the website with the DoIt theme
-        run: hugo -t DoIt
-      - name: Upload index.json for search
-        run: node push_algolia_json.js
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
