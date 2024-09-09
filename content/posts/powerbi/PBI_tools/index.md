@@ -19,7 +19,9 @@ abbrlink: 41509
 
 ### 3. SVG代码式编辑工具 https://www.svgviewer.dev/
 
-### 4. Power BI 专用SVG工具 https://app.powerbi.com/view?r=eyJrIjoiZDk1N2RiMTgtYWMwOC00ZDM3LTliYzQtYzMxYWYzOGVkNmI1IiwidCI6IjI5Y2JkNTY4LTBlOWItNDQ0Zi1iZTA1LTYxNjMyOTAzNjJmZSJ95
+### 4. Power BI 专用SVG工具 
+
+- https://app.powerbi.com/view?r=eyJrIjoiZDk1N2RiMTgtYWMwOC00ZDM3LTliYzQtYzMxYWYzOGVkNmI1IiwidCI6IjI5Y2JkNTY4LTBlOWItNDQ0Zi1iZTA1LTYxNjMyOTAzNjJmZSJ95
 
 ### 5. Inkscape https://inkscape.org/zh-hans/
 

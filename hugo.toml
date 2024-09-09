@@ -384,7 +384,7 @@ enableEmoji = true
 
   # Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["algolia", "fuse"]
     type = "fuse"
     # max index length of the chunked content
@@ -424,7 +424,7 @@ enableEmoji = true
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/梵-黑.avif"
+      logo = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/favicon.avif"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -475,16 +475,16 @@ enableEmoji = true
       themeLogo = false
     # FixIt 0.2.17 | CHANGED Site creation time
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2021-12-18T16:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
-      copyright = 0
-      statistics = 0
+      copyright = 1
+      statistics = 2
       visitor = 0
       beian = 0
 
@@ -1160,11 +1160,13 @@ enableEmoji = true
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
+        _custom = "/css/_custom.scss"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
         # someJavascript = "some.js"
+        flyfish = "/js/flyfish.js"
         # located in "assets/"
         # Or
         # someJavascript = "https://cdn.example.com/some.js"
