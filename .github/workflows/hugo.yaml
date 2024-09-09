@@ -25,7 +25,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          deploy_key: ${{ secrets.HUGO_PRIVATE_KEY }}
-          external_repository: Martinlwx/martinlwx.github.io
           publish_branch: main
           publish_dir: ./public
