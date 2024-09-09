@@ -1160,7 +1160,7 @@ enableEmoji = true
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
-        _custom = "/css/_custom.scss"
+        # _custom = "/css/_custom.scss"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
