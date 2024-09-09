@@ -25,6 +25,6 @@
       {{- end -}}
     </div>
     {{- if .IsPartial }}<div class="decryptor-content"></div>{{ end -}}
-    <cipher-text data-password="{{ xxhash .Password }}">{{ $content }}</cipher-text>
+    <!-- <cipher-text data-password="{{ xxhash .Password }}">{{ $content }}</cipher-text> -->
   </fixit-encryptor>
 {{- end -}}
