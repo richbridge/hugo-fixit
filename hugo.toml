@@ -133,10 +133,10 @@ enableEmoji = true
 # See: https://gohugo.io/hugo-modules/configuration/#module-config-imports
 # -------------------------------------------------------------------------------------
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.132.0"
+# [module]
+#   [module.hugoVersion]
+#     extended = true
+#     min = "0.132.0"
 
 # -------------------------------------------------------------------------------------
 # Markup related configuration in Hugo
