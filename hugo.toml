@@ -8,7 +8,7 @@ hasCJKLanguage = true
 title = "梵刹 - 个人学习心得分享"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
-theme = "FixIt"
+theme = "fixit"
 
 # -------------------------------------------------------------------------------------
 # Menu Configuration
