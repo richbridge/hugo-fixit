@@ -792,7 +792,7 @@ enableEmoji = true
   [params.backToTop]
     enable = true
     # Scroll percent label in b2t button
-    scrollpercent = false
+    scrollpercent = true
 
   # FixIt 0.2.16 | NEW Reading progress bar
   [params.readingProgress]
