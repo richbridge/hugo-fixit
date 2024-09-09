@@ -372,7 +372,7 @@ enableEmoji = true
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/梵-黑.avif"
+    svgFavicon = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/梵-红.png"
     # Safari mask icon color
     iconColor = "#5bbad5"
     # Windows v8-10 tile color
