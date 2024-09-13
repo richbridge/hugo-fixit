@@ -162,7 +162,7 @@ enableEmoji = true
       # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
       post = ""
       name = "站点"
-      url = "#"
+      url = "/about/"
       # 当你将鼠标悬停在此菜单链接上时，将显示的标题
       title = ""
       weight = 6
@@ -900,7 +900,7 @@ enableEmoji = true
       # URL of avatar shown in home page
       avatarURL = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/avatar.avif"
       # FixIt 0.2.17 | NEW identifier of avatar menu link
-      avatarMenu = "/posts/"
+      avatarMenu = "/zh-cn/posts/"
       # title shown in home page (HTML format is supported)
       title = "梵刹"
       # subtitle shown in home page
@@ -1325,7 +1325,7 @@ enableEmoji = true
       replace = false
     # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
     [params.page.related]
-      enable = true
+      enable = false
       count = 5
     # FixIt 0.2.17 | NEW Donate (Sponsor) settings
     [params.page.reward]
