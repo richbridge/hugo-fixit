@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>newline - 标签 | 菠菜眾長</title>
+    <link>http://localhost:1313/tags/newline/</link>
+    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
+    <language>zh-CN</language>
+    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
+    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/newline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不同系统的换行符的差异</title>
+      <link>http://localhost:1313/posts/newline/</link>
+      <pubDate>Sun, 07 Aug 2022 00:10:30 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/posts/newline/</guid>
+      <category domain="http://localhost:1313/categories/os/">OS</category>
+      <description>&lt;p&gt;换行符（通常称为行尾、行尾 (EOL)、下一行 (NEL) 或换行符）是字符编码规范（例如，ASCII、EBCDIC）中的控制字符或控制字符序列，用于表示一行文本的结尾和新文本的开头。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

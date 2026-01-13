@@ -1,0 +1,292 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Hexo - 标签 | 菠菜眾長",
+  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "home_page_url": "http://localhost:1313/",
+  "language": "zh-CN",
+  "icon": "http://localhost:1313/apple-touch-icon.png",
+  "favicon": "http://localhost:1313/favicon.ico",
+  "authors": [
+    {
+      "name": "Lruihao",
+      "url": "https://github.com/Lruihao",
+      "avatar": "http://localhost:1313/images/avatar.jpg"
+    }
+  ],
+  "items": [
+    {
+      "title": "个人博客从 Hexo 迁移至 Hugo",
+      "date_published": "2021-10-03T15:27:58&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/hexo-to-hugo/",
+      "url": "http://localhost:1313/posts/hexo-to-hugo/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["FixIt","Hexo","hugo"],
+      "summary": " 电脑升级 win 11 后，分盘操作存在 bug, 然后又不小心把装代码的盘格式化了，虽然都有备份到 github, 但是当时为了省事，hexo Node 安装的很多以来插件都没有备份，现在又下载不到了，所以 hexo 博客没办法完整复原，另外，早就觉得基于 Node 的 hexo 实在有些臃肿，且博客内容多了以后部署太慢，就干脆乘机换了好了，经过一段时间寻找，最终选择了基于 Go 的 hugo, 记录一下迁移过程及待办事项。\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e电脑升级 win 11 后，分盘操作存在 bug, 然后又不小心把装代码的盘格式化了，虽然都有备份到 github, 但是当时为了省事，hexo Node 安装的很多以来插件都没有备份，现在又下载不到了，所以 hexo 博客没办法完整复原，另外，早就觉得基于 Node 的 hexo 实在有些臃肿，且博客内容多了以后部署太慢，就干脆乘机换了好了，经过一段时间寻找，最终选择了基于 Go 的 hugo, 记录一下迁移过程及待办事项。\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "hexo-theme-next @modified LRH",
+      "date_published": "2019-03-21T16:43:19&#43;08:00",
+      "date_modified": "2019-09-13T16:43:19&#43;08:00",
+      "id": "http://localhost:1313/posts/hexo-theme-next/",
+      "url": "http://localhost:1313/posts/hexo-theme-next/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","Node.js","他山之石"],
+      "image": "/posts/hexo-theme-next/images/next.png",
+      "summary": " 危险\r如无必要，不再更新！（2019.09.13）\n今晚我做出了一个慎重的决定，由于博主时间精力有限，需要更多的时间来工作和学习。所以我将放弃对 next 的主题的自定义修改，next 主题官方已经更新到了 7.0+的版本，喜欢 next 主题风格的朋友可以在 github 更新。\n我这也算是上古版本了，版本差距实在过大，所以我也将放弃博客使用主题的更新。\n以下仍为当前博客使用主题，lib 资源已打包 github。\r",
+      "content_html": "\u003c!-- markdownlint-disable-file --\u003e\n\u003cdiv class=\"details admonition danger open\"\u003e\r\n    \u003cdiv class=\"details-summary admonition-title\"\u003e\u003ci class=\"icon fa-fw fa-solid fa-bolt\" aria-hidden=\"true\"\u003e\u003c/i\u003e危险\u003ci class=\"details-icon fa-solid fa-angle-right fa-fw\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e\u003cdiv class=\"details-content\"\u003e\r\n      \u003cdiv class=\"admonition-content\"\u003e\u003cspan style=\"color: #d9534f;font-size: 1.2em;\"\u003e\u003cstrong\u003e如无必要，不再更新！（2019.09.13）\u003c/strong\u003e\u003c/span\u003e\u003cbr\u003e\n今晚我做出了一个慎重的决定，由于博主时间精力有限，需要更多的时间来工作和学习。所以我将\u003cstrong\u003e放弃对 next 的主题的自定义修改\u003c/strong\u003e，next 主题官方已经更新到了 7.0+的版本，喜欢 next 主题风格的朋友可以在 github 更新。\u003cbr\u003e\n我这也算是上古版本了，版本差距实在过大，所以我也将放弃博客使用主题的更新。\u003cbr\u003e\n以下仍为当前博客使用主题，lib 资源已打包 github。\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e"
+    },
+    {
+      "title": "模仿知乎卡片式链接",
+      "date_published": "2019-03-15T15:21:39&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/linkcard/",
+      "url": "http://localhost:1313/posts/linkcard/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","JavaScript"],
+      "summary": " 模仿知乎的卡片式链接，idea 来自 [兰州小红鸡]\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e模仿知乎的卡片式链接，idea 来自 [兰州小红鸡]\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "利用腾讯云对象存储 COS 桶托管 hexo 博客",
+      "date_published": "2019-01-22T14:57:08&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/cos-hexo/",
+      "url": "http://localhost:1313/posts/cos-hexo/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","hugo","对象存储","腾讯云 cos 桶"],
+      "summary": " 本以为 coding pages 与腾讯云合作后会更好，没想到正是这种初期 bug 不断，速度也是非常慢。比 gitee, 甚至 github 都要慢很多了。所以决定放弃 coding 了，本想挂到云服务器上，但是这个云服务器只续费了半年，可能不会再续费，前几天看到用腾讯云的 cos 桶 xml 制作动态相册的文章，知道了对象存储这个玩意，腾讯云 COS 提供免费 50G 的存储空间，还有 CDN 加速服务，我觉得是个不错的选择，部署后发现速度还挺好。\n适用于 hexo, hugo 等静态博客的部署。\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e本以为 coding pages 与腾讯云合作后会更好，没想到正是这种初期 bug 不断，速度也是非常慢。比 gitee, 甚至 github 都要慢很多了。所以决定放弃 coding 了，本想挂到云服务器上，但是这个云服务器只续费了半年，可能不会再续费，前几天看到用腾讯云的 cos 桶 xml 制作动态相册的文章，知道了对象存储这个玩意，腾讯云 COS 提供免费 50G 的存储空间，还有 CDN 加速服务，我觉得是个不错的选择，部署后发现速度还挺好。\u003cbr\u003e\n适用于 hexo, hugo 等静态博客的部署。\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "在搜索、文章底部、侧栏添加最近文章模块",
+      "date_published": "2019-01-16T17:50:52&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/recent-posts/",
+      "url": "http://localhost:1313/posts/recent-posts/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo"],
+      "summary": " 首先在主题配置文件添加以下关键字\nrecent_posts: enable: true search: true post: false sidebar: false icon: history title: 近期文章 layout: block9 侧栏\r在 next/layout/_macro/sidebar.swig 中的 if theme.links 对应的 endif 后面。\n{% if theme.recent_posts.enable and theme.recent_posts.sidebar %} ",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e首先在主题配置文件添加以下关键字\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cpre\u003e\u003ccode\u003erecent_posts:\n  enable: true\n  search: true\n  post: false\n  sidebar: false\n  icon: history\n  title: 近期文章\n  layout: block\u003c/code\u003e\u003c/pre\u003e\u003ch2 class=\"heading-element\" id=\"侧栏\"\u003e\u003cspan\u003e9 侧栏\u003c/span\u003e\r\n  \u003ca href=\"#%e4%be%a7%e6%a0%8f\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cp\u003e在 \u003ccode\u003enext/layout/_macro/sidebar.swig\u003c/code\u003e 中的 \u003ccode\u003eif theme.links\u003c/code\u003e 对应的 \u003ccode\u003eendif\u003c/code\u003e 后面。\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e{% if theme.recent_posts.enable and theme.recent_posts.sidebar %}\n  \u003cdiv class=\"links-of-blogroll motion-element {{ \"links-of-blogroll-\" + theme.recent_posts.layout  }}\"\u003e\n   \u003cdiv class=\"links-of-blogroll-title\"\u003e\n     \u003ci class=\"fa fa-history fa-{{ theme.recent_posts.icon | lower }}\" aria-hidden=\"true\"\u003e\u003c/i\u003e\n     {{ theme.recent_posts.title }}\n   \u003c/div\u003e\n   \u003cul class=\"links-of-blogroll-list\"\u003e\n     {% set posts = site.posts.sort('-date') %}\n     {% for post in posts.slice('0', '3') %}\n       \u003cli\u003e\n         \u003ca href=\"{{ url_for(post.path) }}\" title=\"{{ post.title }}\" target=\"_blank\"\u003e{{ post.title }}\u003c/a\u003e\n       \u003c/li\u003e\n     {% endfor %}\n   \u003c/ul\u003e\n \u003c/div\u003e\n{% endif %}\u003c/code\u003e\u003c/pre\u003e\u003ch2 class=\"heading-element\" id=\"搜索结果处添加\"\u003e\u003cspan\u003e10 搜索结果处添加\u003c/span\u003e\r\n  \u003ca href=\"#%e6%90%9c%e7%b4%a2%e7%bb%93%e6%9e%9c%e5%a4%84%e6%b7%bb%e5%8a%a0\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cp\u003e找到路径\u003ccode\u003eH:\\hexo\\themes\\hexo-theme-next\\layout\\_partials\\search\u003c/code\u003e下\u003ccode\u003elocalsearch.swig\u003c/code\u003e文件\u003cbr\u003e\n把\u003ccode\u003e\u0026lt;div id=\u0026quot;local-search-result\u0026quot;\u0026gt;\u0026lt;/div\u0026gt;\u003c/code\u003e修改成以下内容（这里显示 15 篇）\u003c/p\u003e"
+    },
+    {
+      "title": "hexo 插件及 next 内置样式集",
+      "date_published": "2018-11-24T16:54:09&#43;08:00",
+      "date_modified": "2021-10-02T15:27:58&#43;08:00",
+      "id": "http://localhost:1313/posts/nextplugin/",
+      "url": "http://localhost:1313/posts/nextplugin/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo"],
+      "summary": " 2021/10/2 更新\n博客已迁移至 Hugo, 插件演示不适用，已删除。\n让文章写的好看又简洁又好用的插件！hexo 完整的标签列表，next 插件列表\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e2021/10/2 更新\u003cbr\u003e\n博客已迁移至 Hugo, 插件演示不适用，已删除。\u003cbr\u003e\n让文章写的好看又简洁又好用的插件！\u003ca href=\"https://hexo.io/zh-cn/docs/tag-plugins.html\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003ehexo 完整的标签列表\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e，\u003ca href=\"https://theme-next.org/docs/tag-plugins/\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003enext 插件列表\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "next 添加支持 pdf",
+      "date_published": "2018-11-09T12:51:48&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/next-pdf/",
+      "url": "http://localhost:1313/posts/next-pdf/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo"],
+      "summary": " 最新的 next 主题已经更新了支持 PDF 功能，写法也和链接写法一样，可是我没有更新，我按 github 上那个 readme 试了一下好像不可以，所以用了另外一种插件的方法。\n7 iframe(推荐)\r8 模板自带\r今天（2019.4.3）又看了一下，改了写法，写法和插件一样，我在我的模板里也更新了。（插件模板二选一即可，个人更喜欢插件） 但是如果安装插件后，也是优先模板的 pdf 脚本解析 pdf，所以在我的模板中把模板的 pdf 脚本先注释了。要启用去掉注释即可。\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e最新的 next 主题已经更新了支持 PDF 功能，\u003cdel\u003e写法也和链接写法一样\u003c/del\u003e，可是我没有更新，我按 github 上那个 readme 试了一下好像不可以，所以用了另外一种插件的方法。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2 class=\"heading-element\" id=\"iframe推荐\"\u003e\u003cspan\u003e7 iframe(推荐)\u003c/span\u003e\r\n  \u003ca href=\"#iframe%e6%8e%a8%e8%8d%90\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cpre\u003e\u003ccode\u003e\u003ciframe src=\"/posts/next-pdf/1.pdf\" style=\"width: 100%;height: 800px;\"\u003e\u003c/iframe\u003e\u003c/code\u003e\u003c/pre\u003e\u003ch2 class=\"heading-element\" id=\"模板自带\"\u003e\u003cspan\u003e8 模板自带\u003c/span\u003e\r\n  \u003ca href=\"#%e6%a8%a1%e6%9d%bf%e8%87%aa%e5%b8%a6\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cblockquote\u003e\n\u003cp\u003e今天（2019.4.3）又看了一下，改了写法，写法和插件一样，我在我的模板里也更新了。（插件模板二选一即可，个人更喜欢插件）\n但是如果安装插件后，也是优先模板的 pdf 脚本解析 pdf，所以在我的模板中把模板的 pdf 脚本先注释了。要启用去掉注释即可。\u003c/p\u003e"
+    },
+    {
+      "title": "hexo 博客源码备份",
+      "date_published": "2018-11-03T12:49:28&#43;08:00",
+      "date_modified": "2018-11-03T12:49:28&#43;08:00",
+      "id": "http://localhost:1313/posts/blog-backup/",
+      "url": "http://localhost:1313/posts/blog-backup/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Git","Hexo","Node.js"],
+      "image": "/posts/blog-backup/images/1.png",
+      "summary": "5 备份 hexo 博客\r//如果 themes/next（主题文件）下面有。git，请删除这个。git 文件夹。 cd hexo git init //初始化本地仓库 git add source themes scaffolds _config.yml package.json package-lock.json //将必要的文件依次添加 git commit -m \"blog hexo\" git branch hexo //新建 hexo 分支 git checkout hexo //切换到 hexo 分支上 git remote add origin git@github.com:username/username.github.io.git //将本地与 Github 项目对接 git push origin hexo //push 到 Github 项目的 hexo 分支上6 在其他终端克隆和更新 hexo 博客\rnodejs,git,hexo 已经安装好，即搭建完成\n",
+      "content_html": "\u003ch2 class=\"heading-element\" id=\"备份-hexo-博客\"\u003e\u003cspan\u003e5 备份 hexo 博客\u003c/span\u003e\r\n  \u003ca href=\"#%e5%a4%87%e4%bb%bd-hexo-%e5%8d%9a%e5%ae%a2\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cpre\u003e\u003ccode\u003e//如果 themes/next（主题文件）下面有。git，请删除这个。git 文件夹。\ncd hexo\ngit init  //初始化本地仓库\ngit add source themes scaffolds _config.yml package.json package-lock.json  //将必要的文件依次添加\ngit commit -m \"blog hexo\"\ngit branch hexo  //新建 hexo 分支\ngit checkout hexo  //切换到 hexo 分支上\ngit remote add origin git@github.com:username/username.github.io.git  //将本地与 Github 项目对接\ngit push origin hexo  //push 到 Github 项目的 hexo 分支上\u003c/code\u003e\u003c/pre\u003e\u003ch2 class=\"heading-element\" id=\"在其他终端克隆和更新-hexo-博客\"\u003e\u003cspan\u003e6 在其他终端克隆和更新 hexo 博客\u003c/span\u003e\r\n  \u003ca href=\"#%e5%9c%a8%e5%85%b6%e4%bb%96%e7%bb%88%e7%ab%af%e5%85%8b%e9%9a%86%e5%92%8c%e6%9b%b4%e6%96%b0-hexo-%e5%8d%9a%e5%ae%a2\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cblockquote\u003e\n\u003cp\u003enodejs,git,hexo 已经安装好，即搭建完成\u003c/p\u003e"
+    },
+    {
+      "title": "网页离开时改变标题“崩溃欺骗”",
+      "date_published": "2018-09-26T16:36:08&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/crash-cheat/",
+      "url": "http://localhost:1313/posts/crash-cheat/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","JavaScript"],
+      "summary": " 从暑假到现在有好几个小伙伴问我博客的标题怎么变来变去的，不想再和每个人都说一遍了，耽误时间，索性写一下。\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e从暑假到现在有好几个小伙伴问我博客的标题怎么变来变去的，不想再和每个人都说一遍了，耽误时间，索性写一下。\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "hexo next 主题添加字数统计（2018）",
+      "date_published": "2018-08-30T13:15:50&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/hexo-wordcount/",
+      "url": "http://localhost:1313/posts/hexo-wordcount/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","字数统计"],
+      "summary": "\r警告\r2018/11/1 说明 next 主题好像更新了，现在自带的可以用了，如果可以用了，以下教程可以忽略！！！\n最近有几个小伙伴问我博客的字数统计怎么实现的，怎么网上的教程不管用啊？一开始我搭建博客的时候也遇到了类似的问题，按照 github 上 wordcount 的 readme 操作后，并没有什么用，我打开 post 相关配置文件并没有发现发现 wordcount 这个关键词，next 本身似乎也并没有在主题配置文件提供选项（或许是个人原因），所以只好自己动手加一个了。为了不重复回答问题，先做个原创记录。转载请注明出处。在此抛转引玉，如果有更好的方法请在留言区提出，我会及时更改。同时也希望小伙伴多发扬折腾精神，多专研，少提问，毕竟还是 RTFSC 大法好！(Read the fucking source code)\n",
+      "content_html": "\u003cdiv class=\"details admonition warning open\"\u003e\r\n    \u003cdiv class=\"details-summary admonition-title\"\u003e\u003ci class=\"icon fa-fw fa-solid fa-exclamation-triangle\" aria-hidden=\"true\"\u003e\u003c/i\u003e警告\u003ci class=\"details-icon fa-solid fa-angle-right fa-fw\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e\u003cdiv class=\"details-content\"\u003e\r\n      \u003cdiv class=\"admonition-content\"\u003e\u003cp\u003e\u003cstrong\u003e2018/11/1 说明\nnext 主题好像更新了，现在自带的可以用了，如果可以用了，以下教程可以忽略！！！\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e最近有几个小伙伴问我博客的字数统计怎么实现的，怎么网上的教程不管用啊？一开始我搭建博客的时候也遇到了类似的问题，按照 github 上 wordcount 的 readme 操作后，并没有什么用，我打开 post 相关配置文件并没有发现发现 wordcount 这个关键词，next 本身似乎也并没有在主题配置文件提供选项（或许是个人原因），所以只好自己动手加一个了。为了不重复回答问题，先做个原创记录。转载请注明出处。在此抛转引玉，如果有更好的方法请在留言区提出，我会及时更改。同时也希望小伙伴多发扬折腾精神，多专研，少提问，毕竟还是 RTFSC 大法好！(Read the fucking source code)\u003c/p\u003e\n\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e"
+    },
+    {
+      "title": "hexo d 出错",
+      "date_published": "2018-08-21T22:15:01&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/hexo-d-error/",
+      "url": "http://localhost:1313/posts/hexo-d-error/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo"],
+      "summary": "搭建这个博客以来，隔一段时间就出现一次部署失败的错误，每次都差不多，莫名其妙地出现的。前几次不知道怎么瞎搞就好了。\n现在做一下记录，防止以后出错用。\n错误如下\n",
+      "content_html": "\u003cp\u003e搭建这个博客以来，隔一段时间就出现一次部署失败的错误，每次都差不多，莫名其妙地出现的。前几次不知道怎么瞎搞就好了。\u003cbr\u003e\n现在做一下记录，防止以后出错用。\u003cbr\u003e\n错误如下\u003c/p\u003e"
+    },
+    {
+      "title": "hexo 个性化 - next 主题动态显示 subtitle",
+      "date_published": "2018-08-20T16:16:40&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/dongtaisub/",
+      "url": "http://localhost:1313/posts/dongtaisub/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","JavaScript"],
+      "summary": " 本文适合我这种纯小白。 目前为止，全网也就只有一个博主写到过这样动态显示 subtitle 的文章。传送门（关键词：js, 后加载）\n但是嘞，该博写的不怎么详细，17 年底写的。当然更大的可能是 next 更新了一些文件结构，所以不适合现在使用了。以前我按原博的流程配置了一下没成功就搁在那里了，今天突然心血来潮。翻了翻原博主博客的源码，再与自己的对比了一下，发现了一些端倪。稍作调整后如下：\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e本文适合我这种纯小白。\n目前为止，全网也就只有一个博主写到过这样动态显示 subtitle 的文章。\u003ca href=\"https://www.jianshu.com/p/df2c844eeabf\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e传送门\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e（关键词：js, 后加载）\u003cbr\u003e\n但是嘞，该博写的不怎么详细，17 年底写的。当然更大的可能是 next 更新了一些文件结构，所以不适合现在使用了。以前我按原博的流程配置了一下没成功就搁在那里了，今天突然心血来潮。翻了翻原博主博客的源码，再与自己的对比了一下，发现了一些端倪。稍作调整后如下：\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "在 Android 上搭建 hexo 博客",
+      "date_published": "2018-08-11T16:59:05&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/termux/",
+      "url": "http://localhost:1313/posts/termux/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","Node.js","termux"],
+      "summary": " 暑假刚开始的时候放假回家没带电脑，只能玩手机，想折腾一下博客都没有条件，在一个发现一个 app, 卧槽 😱，termux 真的强大！（初始化需要科学上网）安卓手机上的 linux 简直了，在手机就可以搭了一个 hexo 博客，只要在 github 上实现分支管理就可以多终端同步更新了。恕我学疏才浅，还只想到这些！一开始想回校后，折腾一下 hexo-admin 实现类似动态博客一样的多终端管理（手动滑稽），现在发现 termux 这样子的操作也不错嘛，挺装哔 hhhhhh**部署后的效果**\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e暑假刚开始的时候放假回家没带电脑，只能玩手机，想折腾一下博客都没有条件，在一个发现一个 app, 卧槽 😱，termux 真的强大！（初始化需要科学上网）安卓手机上的 linux 简直了，在手机就可以搭了一个 hexo 博客，只要在 github 上实现分支管理就可以多终端同步更新了。恕我学疏才浅，还只想到这些！一开始想回校后，折腾一下 hexo-admin 实现类似动态博客一样的多终端管理（手动滑稽），现在发现 termux 这样子的操作也不错嘛，挺装哔 hhhhhh**\u003ca href=\"https://lruihao.gitee.io\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e部署后的效果\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e**\u003c/p\u003e\n\u003c/blockquote\u003e"
+    },
+    {
+      "title": "hexo 博客自定义 console log",
+      "date_published": "2018-08-04T16:19:06&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/console-log/",
+      "url": "http://localhost:1313/posts/console-log/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","JavaScript"],
+      "summary": "看到知乎，百度的页面 F12 检查后都会有一些有趣的招聘信息。于是乎我也想给我的博客加一个。\n我主要用到的工具：\nconsole.log() Notepad++ 在线图片转文字工具 ",
+      "content_html": "\u003cp\u003e看到知乎，百度的页面 F12 检查后都会有一些有趣的招聘信息。于是乎我也想给我的博客加一个。\u003cbr\u003e\n我主要用到的工具：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003econsole.log()\u003c/li\u003e\n\u003cli\u003eNotepad++\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"http://picascii.com\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e在线图片转文字工具\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "title": "hexo+github 搭建个人博客及美化",
+      "date_published": "2018-06-01T14:34:23&#43;08:00",
+      "date_modified": "2021-10-03T15:27:58&#43;08:00",
+      "id": "http://localhost:1313/posts/hexobuild/",
+      "url": "http://localhost:1313/posts/hexobuild/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo","Node.js"],
+      "summary": "更多关于 hexo\n17 首先\r官方文档 是我们的第一手资料，也是最好的。 安装 Hexo 相当简单。然而在安装前，你必须检查电脑中是否已安装下列应用程序：\n",
+      "content_html": "\u003cp\u003e\u003cstrong\u003e\u003ca href=\"/categories/hexo/\"\u003e更多关于 hexo\u003c/a\u003e\u003c/strong\u003e\u003c/p\u003e\n\u003ch2 class=\"heading-element\" id=\"首先\"\u003e\u003cspan\u003e17 首先\u003c/span\u003e\r\n  \u003ca href=\"#%e9%a6%96%e5%85%88\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cp\u003e\u003ca href=\"https://hexo.io/zh-cn/docs/index.html\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e官方文档\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e 是我们的第一手资料，也是最好的。\n安装 Hexo 相当简单。然而在安装前，你必须检查电脑中是否已安装下列应用程序：\u003c/p\u003e"
+    },
+    {
+      "title": "hexo 添加图片，音乐，链接，视频",
+      "date_published": "2018-05-31T23:19:22&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/hexowrite/",
+      "url": "http://localhost:1313/posts/hexowrite/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Hexo"],
+      "summary": " 如果实在搞得头晕直接去 简书 写文章，再把简书生成的 md 文章复制过来就好了（简书是个不错的 Markdown 在线编辑器），还可以去 马克飞象，专为印象笔记打造的 Markdown 编辑器，typora 也是不错的，突然发现 csdn 也支持 Markdown 编译器了\n",
+      "content_html": "\u003cblockquote\u003e\n\u003cp\u003e\u003cstrong\u003e如果实在搞得头晕直接去 \u003ca href=\"https://www.jianshu.com/\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e简书\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e 写文章，再把简书生成的 md 文章复制过来就好了（简书是个不错的 Markdown 在线编辑器），还可以去 \u003ca href=\"https://maxiang.io/\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003e马克飞象，专为印象笔记打造的 Markdown 编辑器\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e，\u003ca href=\"https://www.typora.io/#\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003etypora 也是不错的\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e，突然发现 \u003ca href=\"https://www.csdn.net/\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003ecsdn\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e 也支持 Markdown 编译器了\u003c/strong\u003e\u003c/p\u003e\n\u003c/blockquote\u003e"
+    }
+  ]
+}

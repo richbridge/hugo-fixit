@@ -1,0 +1,53 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Vue3 - 标签 | 菠菜眾長",
+  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "home_page_url": "http://localhost:1313/",
+  "language": "zh-CN",
+  "icon": "http://localhost:1313/apple-touch-icon.png",
+  "favicon": "http://localhost:1313/favicon.ico",
+  "authors": [
+    {
+      "name": "Lruihao",
+      "url": "https://github.com/Lruihao",
+      "avatar": "http://localhost:1313/images/avatar.jpg"
+    }
+  ],
+  "items": [
+    {
+      "title": "Vue.js History 模式下的 NGINX 配置与 API 代理",
+      "date_published": "2025-06-11T10:05:36&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/vue-build/",
+      "url": "http://localhost:1313/posts/vue-build/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["nginx","Vue3","proxy"],
+      "summary": " 在使用 Vue.js 开发前端应用时，开启 history 模式可以让你的路由更加友好。然而，在部署应用时，需要正确配置 NGINX，以支持前端路由和 API 请求。本文将详细介绍如何配置 NGINX，使其能够处理 Vue 应用的 history 模式，并设置 API 代理。\n",
+      "content_html": "\u003c!-- 本文由 Poe AI 提供 --\u003e\n\u003cp\u003e在使用 Vue.js 开发前端应用时，开启 history 模式可以让你的路由更加友好。然而，在部署应用时，需要正确配置 NGINX，以支持前端路由和 API 请求。本文将详细介绍如何配置 NGINX，使其能够处理 Vue 应用的 history 模式，并设置 API 代理。\u003c/p\u003e"
+    },
+    {
+      "title": "记一次 Debug 第三方包的过程",
+      "date_published": "2024-01-17T14:57:48&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/900d5e4/",
+      "url": "http://localhost:1313/posts/900d5e4/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["debug","Vue2","Vue3","TypeScript"],
+      "image": "http://localhost:1313/posts/900d5e4/images/featured-image.png",
+      "summary": "在完成一个 code diff 需求时，发现所使用的插件不足以完成预期的需求。当然最终还是顺利完成了，详见 code diff demo。\n",
+      "content_html": "\u003cp\u003e在完成一个 code diff 需求时，发现所使用的插件不足以完成预期的需求。当然最终还是顺利完成了，详见 \u003ca href=\"https://lruihao.github.io/vue-el-demo/#/code-diff\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003ecode diff demo\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e。\u003c/p\u003e"
+    }
+  ]
+}

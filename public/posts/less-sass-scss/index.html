@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Less&amp;sass&amp;scss | 菠菜眾長</title><meta name="author" content="Lruihao">
+<meta name="description" content=" Sass 和 Less 都屬於 CSS 前置處理器，CSS 前置處理器定義了一種新的語言，其基本思想是，用一種專門的程式設計語言，為 CSS 增加了一些程式設計的特性，將 CSS 作為目標生成檔，然後開發者就只要使用這種語言進行 CSS 的編碼工作。
+轉化成通俗易懂的話來說就是 “用一種專門的程式設計語言，進行 Web 頁面樣式設計，再通過編譯器轉化為正常的 CSS 檔，以供專案使用”。
+"><meta name="keywords" content='Less, Sass, Scss'>
+  <meta itemprop="name" content="less&sass&scss">
+  <meta itemprop="description" content="Sass 和 Less 都屬於 CSS 前置處理器，CSS 前置處理器定義了一種新的語言，其基本思想是，用一種專門的程式設計語言，為 CSS 增加了一些程式設計的特性，將 CSS 作為目標生成檔，然後開發者就只要使用這種語言進行 CSS 的編碼工作。
+轉化成通俗易懂的話來說就是 “用一種專門的程式設計語言，進行 Web 頁面樣式設計，再通過編譯器轉化為正常的 CSS 檔，以供專案使用”。">
+  <meta itemprop="datePublished" content="2021-06-22T16:39:47+08:00">
+  <meta itemprop="dateModified" content="2026-01-04T22:17:04+08:00">
+  <meta itemprop="wordCount" content="1170">
+  <meta itemprop="image" content="http://localhost:1313/images/apple-devices-preview.webp">
+  <meta itemprop="keywords" content="Less,Sass,Scss"><meta property="og:url" content="http://localhost:1313/posts/less-sass-scss/">
+  <meta property="og:site_name" content="菠菜眾長">
+  <meta property="og:title" content="less&sass&scss">
+  <meta property="og:description" content="Sass 和 Less 都屬於 CSS 前置處理器，CSS 前置處理器定義了一種新的語言，其基本思想是，用一種專門的程式設計語言，為 CSS 增加了一些程式設計的特性，將 CSS 作為目標生成檔，然後開發者就只要使用這種語言進行 CSS 的編碼工作。
+轉化成通俗易懂的話來說就是 “用一種專門的程式設計語言，進行 Web 頁面樣式設計，再通過編譯器轉化為正常的 CSS 檔，以供專案使用”。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-06-22T16:39:47+08:00">
+    <meta property="article:modified_time" content="2026-01-04T22:17:04+08:00">
+    <meta property="article:tag" content="Less">
+    <meta property="article:tag" content="Sass">
+    <meta property="article:tag" content="Scss">
+    <meta property="og:image" content="http://localhost:1313/images/apple-devices-preview.webp">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/apple-devices-preview.webp">
+  <meta name="twitter:title" content="less&sass&scss">
+  <meta name="twitter:description" content="Sass 和 Less 都屬於 CSS 前置處理器，CSS 前置處理器定義了一種新的語言，其基本思想是，用一種專門的程式設計語言，為 CSS 增加了一些程式設計的特性，將 CSS 作為目標生成檔，然後開發者就只要使用這種語言進行 CSS 的編碼工作。
+轉化成通俗易懂的話來說就是 “用一種專門的程式設計語言，進行 Web 頁面樣式設計，再通過編譯器轉化為正常的 CSS 檔，以供專案使用”。">
+<meta name="application-name" content="菠菜眾長">
+<meta name="apple-mobile-web-app-title" content="菠菜眾長"><meta name="theme-color" data-light="#ffffff" data-dark="#252627" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="http://localhost:1313/posts/less-sass-scss/" title="less&amp;sass&amp;scss | 菠菜眾長" /><link rel="prev" type="text/html" href="http://localhost:1313/posts/lightbox/" title="Lightbox" /><link rel="next" type="text/html" href="http://localhost:1313/about/" title="关于" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/posts/less-sass-scss/index.md" title="less&sass&scss | 菠菜眾長"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "less\u0026sass\u0026scss",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/posts\/less-sass-scss\/"
+    },"image": [{
+              "@type": "ImageObject",
+              "url": "http:\/\/localhost:1313\/images\/apple-devices-preview.webp",
+              "width":  2880 ,
+              "height":  1508 
+            }],"genre": "posts","keywords": "Less, Sass, Scss","wordcount":  1170 ,
+    "url": "http:\/\/localhost:1313\/posts\/less-sass-scss\/","datePublished": "2021-06-22T16:39:47+08:00","dateModified": "2026-01-04T22:17:04+08:00","license": "本站内容采用 CC BY-NC-SA 4.0 国际许可协议。","publisher": {
+      "@type": "Organization",
+      "name": "Lruihao","logo": "http:\/\/localhost:1313\/images\/avatar.jpg"},"author": {
+        "@type": "Person",
+        "name": "Lruihao"
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-instant-intensity="viewport" data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper" data-github-corner="right">
+    <div class="header-title">
+      <a href="/" title="菠菜眾長"><img class="logo" src='/logo.webp' alt="菠菜眾長" height="32" width="32"><span class="header-title-text">菠菜众长</span></a><span class="header-subtitle">李瑞豪的博客</span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item has-children">
+              <a class="menu-link" href="/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a><i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item-divider" aria-hidden="true"></li><li class="menu-item">
+                        <a class="menu-link" href="https://fixit.lruihao.cn/" title="FixIt 官网" rel="noopener noreferrer" target="_blank"><img class="fixit-icon" src="https://fixit.lruihao.cn/images/hugo-fixit.webp" alt="FixIt logo"> FixIt <i class="fa-solid fa-external-link-alt fa-fw fa-xs text-secondary"></i></a>
+                      </li></ul></li><li class="menu-item">
+              <a class="menu-link" href="/projects/" title="开源项目"><i class="fa-solid fa-lightbulb fa-shake fa-fw fa-sm" aria-hidden="true"></i> 开源</a></li><li class="menu-item">
+              <a class="menu-link" href="/friends/" title="友情链接"><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item">
+              <a class="menu-link" href="/reward/"><i class="fa-solid fa-hand-holding-dollar fa-fw fa-sm" aria-hidden="true"></i> 赞赏</a></li><li class="menu-item">
+              <a class="menu-link" href="/guestbook/"><i class="fa-solid fa-comment-dots fa-fw fa-sm" aria-hidden="true"></i> 留言</a></li><li class="menu-item">
+              <a class="menu-link" href="/index.xml" title="通过 RSS 订阅"><i class="fa-solid fa-rss fa-fw fa-sm" aria-hidden="true"></i> RSS</a></li><li class="menu-item">
+              <a class="menu-link" href="/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" role="button" aria-label="切换主题" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></li><li class="menu-item language-switch auto d-none" aria-hidden="true">
+    <span role="button" aria-label="选择语言" title="选择语言"><i class="fa-solid fa-language fa-fw" aria-hidden="true"></i></span>
+    <ul class="sub-menu"><li class="menu-item active" data-type="artificial">
+          <a href="/posts/less-sass-scss/" data-lang="zh-CN" class="menu-link text-secondary" title="简体中文">
+            <i class="fa-solid fa-person fa-fw fa-sm" aria-hidden="true"></i> 简体中文</a>
+        </li><li class="menu-item-divider" aria-hidden="true"></li><li class="menu-item" data-type="machine">
+          <a data-lang="chinese_simplified" class="menu-link" title="简体中文">
+            <i class="fa-solid fa-robot fa-fw fa-sm" aria-hidden="true"></i> 简体中文</a>
+        </li><li class="menu-item" data-type="machine">
+          <a data-lang="chinese_traditional" class="menu-link" title="繁體中文">
+            <i class="fa-solid fa-robot fa-fw fa-sm" aria-hidden="true"></i> 繁體中文</a>
+        </li></ul>
+  </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="菠菜眾長"><img class="logo" src='/logo.webp' alt="菠菜眾長" height="26" width="26"><span class="header-title-text">菠菜众长</span></a><span class="header-subtitle">李瑞豪的博客</span></div>
+      <div class="theme-switch" role="button" aria-label="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></div>
+      <div class="menu-toggle" id="menu-toggle-mobile" role="button" aria-labelledby="menu-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><span class="nested-item">
+                  <a class="menu-link" href="/archives/"><i class="fa-solid fa-feather fa-fw fa-sm" aria-hidden="true"></i> 文章</a>
+                  <i class="dropdown-icon fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </span>
+                <ul class="sub-menu"><li class="menu-item">
+                        <a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/collections/"><i class="fa-solid fa-layer-group fa-fw fa-sm" aria-hidden="true"></i> 合集</a>
+                      </li><li class="menu-item">
+                        <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a>
+                      </li><li class="menu-item menu-item-divider" aria-hidden="true"></li><li class="menu-item">
+                        <a class="menu-link" href="https://fixit.lruihao.cn/" title="FixIt 官网"rel="noopener noreferrer" target="_blank"><img class="fixit-icon" src="https://fixit.lruihao.cn/images/hugo-fixit.webp" alt="FixIt logo"> FixIt <i class="fa-solid fa-external-link-alt fa-fw fa-xs text-secondary"></i></a>
+                      </li></ul></li><li class="menu-item"><a class="menu-link" href="/projects/" title="开源项目"><i class="fa-solid fa-lightbulb fa-shake fa-fw fa-sm" aria-hidden="true"></i> 开源</a></li><li class="menu-item"><a class="menu-link" href="/friends/" title="友情链接"><i class="fa-solid fa-users fa-fw fa-sm" aria-hidden="true"></i> 友链</a></li><li class="menu-item"><a class="menu-link" href="/reward/"><i class="fa-solid fa-hand-holding-dollar fa-fw fa-sm" aria-hidden="true"></i> 赞赏</a></li><li class="menu-item"><a class="menu-link" href="/guestbook/"><i class="fa-solid fa-comment-dots fa-fw fa-sm" aria-hidden="true"></i> 留言</a></li><li class="menu-item"><a class="menu-link" href="/about/"><i class="fa-solid fa-quote-left fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item text-center"><a class="menu-link" href="https://github.com/Lruihao/" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github fa-lg fa-fw fa-sm" aria-hidden="true"></i> 关注 Follow</a></li><li class="menu-item menu-system"><span id="translate" class="menu-system-item language-switch auto d-none" aria-hidden="true">
+    <span role="button" aria-label="选择语言" title="选择语言" data-current="简体中文">简体中文<i class="dropdown-icon fa-solid fa-chevron-down" aria-hidden="true"></i></span>
+  </span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><nav aria-label="breadcrumb" class="breadcrumb-container sticky">
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/posts/" title="Posts">文章</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">Less&amp;sass&amp;scss</li>
+    </ol>
+  </nav><main class="fi-container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集"><div class="aside-custom">
+  <img src="/images/wxmp.webp" alt="微信公众号" width="100%">
+</div></aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Less&amp;sass&amp;scss</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><a href="https://github.com/Lruihao" title="作者" target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img class="avatar" src='/images/remote/fee47a2f4f2cc71f99a02b0a73ecfee0_8343730180883956151.jpg' alt="Lruihao" height="16" width="16">&nbsp;Lruihao</a></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/css/" class="post-category" title="分类 - CSS"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> CSS</a></span></div><div class="post-meta-line"><span title="发布于 2021-06-22 16:39:47"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2021-06-22">2021-06-22</time></span>&nbsp;<span title="更新于 2026-01-04 22:17:04"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2026-01-04">2026-01-04</time></span>&nbsp;<span title="1170 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 1200 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 3 分钟</span>&nbsp;</div>
+    </div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>目录</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
+        </div>
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ol>
+    <li><a href="#為什麼什麼時候要使用-css-前置處理器-why-when">為什麼，什麼時候要使用 CSS 前置處理器？ (Why, When)</a></li>
+    <li><a href="#lesssassscss-是什麼-what">Less、Sass/Scss 是什麼？ (What)</a>
+      <ol>
+        <li><a href="#less">Less</a></li>
+        <li><a href="#sass">Sass</a></li>
+        <li><a href="#sass-與-scss-的關係">Sass 與 Scss 的關係</a></li>
+      </ol>
+    </li>
+    <li><a href="#sass-和-less-的比較">Sass 和 Less 的比較</a>
+      <ol>
+        <li><a href="#相同點">相同點</a></li>
+        <li><a href="#不同點">不同點</a></li>
+      </ol>
+    </li>
+    <li><a href="#選用-less-還是-sass-">選用 Less 還是 Sass ?</a></li>
+  </ol>
+</nav></div>
+      </div><div class="content" id="content" data-end-flag="「本文完，更多内容汇总在我的 GitHub，持续更新，求关注、求 star、求订阅！」"><blockquote>
+<p>Sass 和 Less 都屬於 <strong>CSS 前置處理器</strong>，CSS 前置處理器定義了一種新的語言，其基本思想是，用一種專門的程式設計語言，為 CSS 增加了一些程式設計的特性，將 CSS 作為目標生成檔，然後開發者就只要使用這種語言進行 CSS 的編碼工作。<br>
+轉化成通俗易懂的話來說就是 <strong>“用一種專門的程式設計語言，進行 Web 頁面樣式設計，再通過編譯器轉化為正常的 CSS 檔，以供專案使用”。</strong></p>
+</blockquote>
+<h2 class="heading-element" id="為什麼什麼時候要使用-css-前置處理器-why-when"><span>1 為什麼，什麼時候要使用 CSS 前置處理器？ (Why, When)</span>
+  <a href="#%e7%82%ba%e4%bb%80%e9%ba%bc%e4%bb%80%e9%ba%bc%e6%99%82%e5%80%99%e8%a6%81%e4%bd%bf%e7%94%a8-css-%e5%89%8d%e7%bd%ae%e8%99%95%e7%90%86%e5%99%a8-why-when" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p><strong>CSS 有具體以下幾個缺點：</strong></p>
+<ul>
+<li>語法不夠強大，比如無法嵌套書寫，導致模組化開發中需要書寫很多重複的選擇器</li>
+<li>沒有變數和合理的樣式複用機制，使得邏輯上相關的屬性值必須以字面量的形式重複輸出，導致難以維護</li>
+</ul>
+<p>這就導致了我們在工作中無端增加了許多工作量。<strong>而使用 CSS 前置處理器可大大提高了我們的開發效率：</strong></p>
+<ul>
+<li>提供 CSS 缺失的樣式層複用機制</li>
+<li>減少冗餘碼</li>
+<li>提高樣式代碼的可維護性。</li>
+</ul>
+<p>但是，CSS 的好處在於簡便、隨時隨地被使用和調試。<strong>這就使得預編譯 CSS 步驟的加入具有以下缺點：</strong></p>
+<ul>
+<li>開發工作流中多了一個環節，調試也變得更麻煩</li>
+<li>預編譯很容易造成後代選擇器的濫用</li>
+</ul>
+<p>所以我們在實際項目中衡量預編譯方案時，還是得想想，比起帶來的額外維護開銷，CSS 前置處理器有沒有解決更大的麻煩。</p>
+<ul>
+<li>系統級框架開發（大型複雜的樣式設計）</li>
+<li>持續維護</li>
+</ul>
+<h2 class="heading-element" id="lesssassscss-是什麼-what"><span>2 Less、Sass/Scss 是什麼？ (What)</span>
+  <a href="#lesssassscss-%e6%98%af%e4%bb%80%e9%ba%bc-what" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 class="heading-element" id="less"><span>2.1 Less</span>
+  <a href="#less" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>是一種動態樣式語言。對 CSS 賦予了動態語言的特性，如變數、繼承、運算、函數。<br>
+Less 既可以在用戶端上運行（支援 IE 6+, Webkit, Firefox)，也可在服務端運行。</p>
+<h3 class="heading-element" id="sass"><span>2.2 Sass</span>
+  <a href="#sass" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>是一種動態樣式語言，Sass 語法屬於縮排語法，<br>
+比 CSS 比多出好些功能（如變數、嵌套、運算，混入 (Mixin)、繼承、顏色處理，函數等），更容易閱讀。</p>
+<h3 class="heading-element" id="sass-與-scss-的關係"><span>2.3 Sass 與 Scss 的關係</span>
+  <a href="#sass-%e8%88%87-scss-%e7%9a%84%e9%97%9c%e4%bf%82" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>Sass 的縮排語法，對於寫慣 CSS 的前端開發者來說很不直觀，也不能將 CSS 代碼加入到 Sass 裡面，因此 Sass 語法進行了改良，Sass 3 就變成了 Scss(Sassy CSS)。與原來的語法相容，只是用<code>{}</code>取代了原來的縮進。Sass 相當於 Scss 的嚴格模式。</p>
+<h2 class="heading-element" id="sass-和-less-的比較"><span>3 Sass 和 Less 的比較</span>
+  <a href="#sass-%e5%92%8c-less-%e7%9a%84%e6%af%94%e8%bc%83" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><h3 class="heading-element" id="相同點"><span>3.1 相同點</span>
+  <a href="#%e7%9b%b8%e5%90%8c%e9%bb%9e" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>Less 和 Sass 在語法上有些共性，比如下面這些：</p>
+<ol>
+<li>混入 (Mixins)——class 中的 class</li>
+<li>參數混入——可以傳遞參數的 class，就像函數一樣</li>
+<li>嵌套規則——Class 中嵌套 class，從而減少重複的代碼</li>
+<li>運算——CSS 中用上數學</li>
+<li>顏色功能——可以編輯顏色</li>
+<li>名字空間 (namespace)——分組樣式，從而可以被調用</li>
+<li>作用域——局部修改樣式</li>
+<li>JavaScript 賦值——在 CSS 中使用 JavaScript 運算式賦值</li>
+</ol>
+<h3 class="heading-element" id="不同點"><span>3.2 不同點</span>
+  <a href="#%e4%b8%8d%e5%90%8c%e9%bb%9e" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><ol>
+<li>實現方式</li>
+</ol>
+<ul>
+<li>Less 是基於 JavaScript，是在用戶端處理的</li>
+<li>Sass 是基於 Ruby 的，是在伺服器端處理的</li>
+</ul>
+<ol start="2">
+<li>關於變數在 Less 和 Sass 中的唯一區別就是 Less 用<code>@</code>，Sass 用<code>$</code></li>
+<li>less 中的變量運算可帶、可不帶單位，Sass 需要帶單位元</li>
+<li>語法不同，請詳見 Less、Sass 官網</li>
+</ol>
+<h2 class="heading-element" id="選用-less-還是-sass-"><span>4 選用 Less 還是 Sass ?</span>
+  <a href="#%e9%81%b8%e7%94%a8-less-%e9%82%84%e6%98%af-sass-" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>無論是學習資料，討論情況，以及項目使用情況 Sass/Scss 都優於 Less，比如 Bootstrap 4 就使用的 Sass, 但是 Less 的使用更加簡單，使用門檻也較低，內網開發的情況，Less 則更加適合。</p></div><div class="post-reward">
+    <div class="comment">Buy me a coffee~</div>
+    <input type="checkbox" class="reward-input" name="reward" id="fi-reward" hidden />
+    <label class="reward-button" for="fi-reward"><i class="fa-solid fa-qrcode fa-fw" aria-hidden="true"></i>赞赏</label>
+    <div class="reward-ways" data-mode="fixed"><div><img src='/images/alipay.jpg' alt="Lruihao 支付宝"><span data-animation>支付宝</span>
+          </div><div><img src='/images/wechatpay.jpg' alt="Lruihao 微信"><span data-animation>微信</span>
+          </div></div>
+  </div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod"><span title="更新于 2026-01-04 22:17:04">更新于 2026-01-04&nbsp;</span>
+      </div><div class="post-info-license">
+            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+          </div></div><div class="post-info-line">
+        <div class="post-info-md"><span><a href="/posts/less-sass-scss/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span><span><a href="https://github.com/Lruihao/hugo-blog/blob/docs/content/posts%5c_frontend%5c_css%5cless-sass-scss.md?plain=1" title="查看源码" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-source">查看源码</a></span><span><a href="https://github.com/Lruihao/hugo-blog/edit/docs/content/posts%5c_frontend%5c_css%5cless-sass-scss.md" title="编辑此页" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-edit">编辑此页</a></span><span><a href="https://github.com/Lruihao/hugo-blog/issues/new?title=[BUG]%20less%26sass%26scss&amp;body=%7cField%7cValue%7c%0A%7c-%7c-%7c%0A%7cTitle%7cless%26sass%26scss%7c%0A%7cURL%7chttp://localhost:1313/posts/less-sass-scss/%7c%0A%7cFilename%7chttps://github.com/Lruihao/hugo-blog/blob/docs/content/posts%5c_frontend%5c_css%5cless-sass-scss.md?plain=1%7c" title="报告问题" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-report">报告问题</a></span><span><a href="vscode://file/E:%5ccode%5chexo%5cfixit%5ccontent%5cposts%5c_frontend%5c_css%5cless-sass-scss.md" title="在编辑器中打开" target="_blank" rel="external nofollow noopener noreferrer" class="link-to-vscode">在编辑器中打开</a></span></div>
+        <div class="post-info-share">
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="http://localhost:1313/posts/less-sass-scss/" data-title="Less&amp;sass&amp;scss" data-hashtags="Less,Sass,Scss"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/less-sass-scss/" data-hashtag="Less"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="http://localhost:1313/posts/less-sass-scss/"><i class="fa-brands fa-linkedin fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/less-sass-scss/" data-title="Less&amp;sass&amp;scss" data-ralateuid="liahao"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="http://localhost:1313/posts/less-sass-scss/" data-title="Less&amp;sass&amp;scss"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Baidu</title><path d="M9.154.0C7.71.0 6.54 1.658 6.54 3.707c0 2.051 1.171 3.71 2.615 3.71 1.446.0 2.614-1.659 2.614-3.71C11.768 1.658 10.6.0 9.154.0zm7.025.594C14.86.58 13.347 2.589 13.2 3.927c-.187 1.745.25 3.487 2.179 3.735 1.933.25 3.175-1.806 3.422-3.364.252-1.555-.995-3.364-2.362-3.674a1.218 1.218.0 00-.261-.03zM3.582 5.535a2.811 2.811.0 00-.156.008c-2.118.19-2.428 3.24-2.428 3.24-.287 1.41.686 4.425 3.297 3.864 2.617-.561 2.262-3.68 2.183-4.362-.125-1.018-1.292-2.773-2.896-2.75zm16.534 1.753c-2.308.0-2.617 2.119-2.617 3.616.0 1.43.121 3.425 2.988 3.362s2.553-3.238 2.553-3.988c0-.745-.62-2.99-2.924-2.99zm-8.264 2.478c-1.424.014-2.708.925-3.323 1.947-1.118 1.868-2.863 3.05-3.112 3.363-.25.309-3.61 2.116-2.864 5.42.746 3.301 3.365 3.237 3.365 3.237s1.93.19 4.171-.31c2.24-.495 4.17.123 4.17.123s5.233 1.748 6.665-1.616c1.43-3.364-.808-5.109-.808-5.109s-2.99-2.306-4.736-4.798c-1.072-1.665-2.348-2.268-3.528-2.257zm-2.234 3.84 1.542.024v8.197H7.758c-1.47-.291-2.055-1.292-2.13-1.462-.072-.173-.488-.976-.268-2.343.635-2.049 2.447-2.196 2.447-2.196h1.81zm3.964 2.39v3.881c.096.413.612.488.612.488h1.614v-4.343h1.689v5.782h-3.915c-1.517-.39-1.59-1.465-1.59-1.465v-4.317zm-5.458 1.147c-.66.197-.978.708-1.05.928-.076.22-.247.78-.1 1.269.294 1.095 1.248 1.144 1.248 1.144h1.37v-3.34z"/></svg></a>
+  </span>
+        </div>
+      </div></div>
+
+  <div class="post-info-more">
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/less/" class="post-tag" title="标签 - Less">Less</a><a href="/tags/sass/" class="post-tag" title="标签 - Sass">Sass</a><a href="/tags/scss/" class="post-tag" title="标签 - Scss">Scss</a></section>
+    <section><span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+    </section>
+  </div><div class="post-nav"><a href="/posts/lightbox/" class="post-nav-item" rel="prev" title="Lightbox"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Lightbox</a><a href="/posts/hexo-to-hugo/" class="post-nav-item" rel="next" title="个人博客从 Hexo 迁移至 Hugo">个人博客从 Hexo 迁移至 Hugo<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div class="post-footer__after">
+  <div class="d-none-desktop text-center">
+    <img src="/images/wxmp.webp" alt="微信公众号" width="70%">
+  </div>
+</div></article>
+
+  <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside><dialog id="toc-dialog" aria-labelledby="toc-dialog-title" role="dialog">
+      <div class="toc">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-drawer"><nav >
+  <ol>
+    <li><a href="#為什麼什麼時候要使用-css-前置處理器-why-when">為什麼，什麼時候要使用 CSS 前置處理器？ (Why, When)</a></li>
+    <li><a href="#lesssassscss-是什麼-what">Less、Sass/Scss 是什麼？ (What)</a>
+      <ol>
+        <li><a href="#less">Less</a></li>
+        <li><a href="#sass">Sass</a></li>
+        <li><a href="#sass-與-scss-的關係">Sass 與 Scss 的關係</a></li>
+      </ol>
+    </li>
+    <li><a href="#sass-和-less-的比較">Sass 和 Less 的比較</a>
+      <ol>
+        <li><a href="#相同點">相同點</a></li>
+        <li><a href="#不同點">不同點</a></li>
+      </ol>
+    </li>
+    <li><a href="#選用-less-還是-sass-">選用 Less 還是 Sass ?</a></li>
+  </ol>
+</nav></div>
+      </div>
+    </dialog></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered order-1">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.154.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.2-20260109141516-b29368c3"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+        </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2018 - 2026</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://github.com/Lruihao" target="_blank" rel="external nofollow noopener noreferrer">Lruihao</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line statistics order-3"><span class="site-time" title='网站运行中……'><i class="fa-solid fa-heartbeat fa-fw animate-icon" aria-hidden="true"></i><span class="ms-1 d-none">博客已运行</span><span class="run-times ms-1">网站运行中……</span></span></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons"><div class="fixed-button back-to-top animate__faster d-none" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><svg viewBox="0 0 100 100">
+              <circle class="bg" cx="50" cy="50" r="50"></circle>
+              <circle class="progress" cx="50" cy="50" r="50"></circle>
+            </svg></div><div id="toc-drawer-button" class="fixed-button toc-drawer-button d-none" role="button" aria-label="目录"><i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i></div></div><a href="https://github.com/Lruihao/hugo-blog" title="在 GitHub 上查看源码，订阅请点 Watch~" target="_blank" rel="external nofollow" class="github-corner right d-none-mobile"><svg viewBox="0 0 250 250" aria-hidden="true" width="56" height="56"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><div id="mask"></div><div class="reading-progress-bar" style="left: 0;top: 0;--bg-progress: #8581dd;--bg-progress-dark: #fff;"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><link rel="stylesheet" href="/css/santa-hat.fixit.min.css"><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><link rel="stylesheet" href="/lib/pace/themes/blue/pace-theme-minimal.css"><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.js?features=Array.prototype.fill%2CArray.prototype.find%2CArray.from%2CIntersectionObserver%2CMath.sign%2CObject.assign%2CPromise%2CObject.entries%2Chtml5shiv%2CObject.values%2Cfetch%2CElement.prototype.after"></script><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/algoliasearch/algoliasearch-lite.umd.min.js" defer></script><script src="/lib/instant-page/instantpage.min.js" async defer type="module"></script><script src="/lib/lightgallery/lightgallery.min.js" defer></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js" defer></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script src="/lib/pangu/pangu.min.js" defer></script><script src="/lib/cell-watermark/watermark.min.js" defer></script><script src="/lib/pace/pace.min.js" async defer></script><script src="/js/config/9496ca8909ce2321bfc35cbe13d9d281.js" defer></script><script src="/js/theme.min.js" defer></script><script src="/js/flyfish.min.js" defer></script><script src="/lib/eruda/eruda.js" defer></script><script src="/js/cmpt-mdevtools.min.js" defer></script><script src="/js/santa-hat.fixit.min.js" async defer></script><script src="/lib/translate.js" defer></script><script>window.ATConfig={"hugoLangCodes":["zh-CN"],"hugoLangMap":{"zh-CN":"/posts/less-sass-scss/"}};console.log('Auto Translate config:', window.ATConfig);</script><script src="/js/translate.fixit.min.js" defer></script><script src="/js/custom.min.js" defer></script></body>
+</html>

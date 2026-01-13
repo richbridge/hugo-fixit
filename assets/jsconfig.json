@@ -1,0 +1,11 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "..\\themes\\FixIt\\assets\\*",
+    "..\\themes\\cmpt-translate\\assets\\*"
+   ]
+  }
+ }
+}

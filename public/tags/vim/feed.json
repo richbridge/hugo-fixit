@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "vim - 标签 | 菠菜眾長",
+  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "home_page_url": "http://localhost:1313/",
+  "language": "zh-CN",
+  "icon": "http://localhost:1313/apple-touch-icon.png",
+  "favicon": "http://localhost:1313/favicon.ico",
+  "authors": [
+    {
+      "name": "Lruihao",
+      "url": "https://github.com/Lruihao",
+      "avatar": "http://localhost:1313/images/avatar.jpg"
+    }
+  ],
+  "items": [
+    {
+      "title": "Vim 速查表",
+      "date_published": "2018-08-31T11:46:39&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/vim/",
+      "url": "http://localhost:1313/posts/vim/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["vim","他山之石"],
+      "summary": "Vim 速查表 - 帮你提高 N 倍效率\n",
+      "content_html": "\u003cp\u003eVim 速查表 - 帮你提高 N 倍效率\u003c/p\u003e"
+    }
+  ]
+}

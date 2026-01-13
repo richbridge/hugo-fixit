@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "box-shadow - 标签 | 菠菜眾長",
+  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "home_page_url": "http://localhost:1313/",
+  "language": "zh-CN",
+  "icon": "http://localhost:1313/apple-touch-icon.png",
+  "favicon": "http://localhost:1313/favicon.ico",
+  "authors": [
+    {
+      "name": "Lruihao",
+      "url": "https://github.com/Lruihao",
+      "avatar": "http://localhost:1313/images/avatar.jpg"
+    }
+  ],
+  "items": [
+    {
+      "title": "现代 CSS 解决方案之异形元素怎么设置阴影？",
+      "date_published": "2024-07-15T10:40:12&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/posts/drop-shadow/",
+      "url": "http://localhost:1313/posts/drop-shadow/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["CSS","drop-shadow","box-shadow"],
+      "summary": "今天记录一个 CSS 小知识点，如何给异形元素设置阴影。\n",
+      "content_html": "\u003cp\u003e今天记录一个 CSS 小知识点，如何给异形元素设置阴影。\u003c/p\u003e"
+    }
+  ]
+}
