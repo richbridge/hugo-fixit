@@ -18,6 +18,9 @@ http://localhost:1313/posts/scrollbar-styling/
 http://localhost:1313/posts/aside-toggle-drag/
 http://localhost:1313/posts/design-principles/
 http://localhost:1313/posts/svg-dark-light/
+http://localhost:1313/projects/vercel-gravatar/
+http://localhost:1313/projects/apple-devices-preview/
+http://localhost:1313/projects/coverview/
 http://localhost:1313/posts/c6bc2d5/
 http://localhost:1313/posts/overflow-tooltip/
 http://localhost:1313/posts/auto-sizes/
@@ -26,6 +29,7 @@ http://localhost:1313/posts/20b75e9/
 http://localhost:1313/posts/6550187/
 http://localhost:1313/posts/el-card-collapse/
 http://localhost:1313/posts/d8ae205/
+http://localhost:1313/projects/fixit-cli/
 http://localhost:1313/posts/aws-solution/
 http://localhost:1313/posts/ssh-sign/
 http://localhost:1313/posts/patch-package/
@@ -38,6 +42,7 @@ http://localhost:1313/posts/dashboard-analysis/
 http://localhost:1313/posts/markdownlint/
 http://localhost:1313/posts/cognitive-complexity/
 http://localhost:1313/posts/article-structure/
+http://localhost:1313/projects/el-table-sticky/
 http://localhost:1313/posts/vue-fullscreen-toggler/
 http://localhost:1313/posts/js-fullscreen/
 http://localhost:1313/posts/translation-guide/
@@ -81,12 +86,16 @@ http://localhost:1313/guestbook/
 http://localhost:1313/about/
 http://localhost:1313/posts/less-sass-scss/
 http://localhost:1313/posts/lightbox/
+http://localhost:1313/projects/cell-watermark/
 http://localhost:1313/posts/codereview/
+http://localhost:1313/projects/bill-note/
+http://localhost:1313/projects/cell-blog/
 http://localhost:1313/posts/cell-blog-dev/
 http://localhost:1313/posts/csdnvisiter/
 http://localhost:1313/posts/cron/
 http://localhost:1313/posts/daka/
 http://localhost:1313/posts/sql/
+http://localhost:1313/projects/cos-album/
 http://localhost:1313/posts/restful/
 http://localhost:1313/posts/phppushurl/
 http://localhost:1313/posts/phpfile/
@@ -173,6 +182,7 @@ http://localhost:1313/posts/gituse/
 http://localhost:1313/posts/termux1/
 http://localhost:1313/posts/web-font/
 http://localhost:1313/posts/linux-hello-c/
+http://localhost:1313/projects/font-mmt/
 http://localhost:1313/posts/liushuixian/
 http://localhost:1313/posts/data/
 http://localhost:1313/posts/night/

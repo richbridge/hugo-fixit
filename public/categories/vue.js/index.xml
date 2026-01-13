@@ -28,6 +28,15 @@
       <description>&lt;p&gt;边界拖拽调整窗口大小功能是一个很常见的功能，比如浏览器、编辑器等很多场景都有应用，这种功能不仅提高了用户体验，也增强了应用的灵活性。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>临时决定再写一个小工具 - 网站预览图生成器</title>
+      <link>http://localhost:1313/projects/apple-devices-preview/</link>
+      <pubDate>Thu, 04 Apr 2024 13:23:37 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/projects/apple-devices-preview/</guid>
+      <category domain="http://localhost:1313/categories/vue.js/">Vue.js</category>
+      <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
+      <description>&lt;p&gt;开发完 &lt;a href=&#34;https://github.com/Lruihao/CoverView&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;CoverView&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;之后，在调整博客文章封面图的时候，我发现首页的多端缩略图还是只能自己 P 图诶，于是我又决定再写一个小工具，用来生成网站预览图。。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>实现类似于 Element UI 表格的溢出文本提示功能</title>
       <link>http://localhost:1313/posts/overflow-tooltip/</link>
       <pubDate>Thu, 29 Feb 2024 16:46:00 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
@@ -108,6 +117,14 @@
       <guid>http://localhost:1313/posts/draggable-dashboard/</guid>
       <category domain="http://localhost:1313/categories/vue.js/">Vue.js</category>
       <description>关于拖拽式仪表盘的设计与开发系列文章。</description>
+    </item>
+    <item>
+      <title>如何让 Element UI 表头、表尾、横向滚动条吸顶吸底固定？</title>
+      <link>http://localhost:1313/projects/el-table-sticky/</link>
+      <pubDate>Mon, 25 Sep 2023 17:49:58 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/projects/el-table-sticky/</guid>
+      <category domain="http://localhost:1313/categories/vue.js/">Vue.js</category>
+      <description>&lt;p&gt;本文将介绍如何通过自定义指令的方式实现 Element UI 表格的表头吸顶、表尾吸底、滚动条吸底以及高度自适应功能。&lt;/p&gt;</description>
     </item>
     <item>
       <title>封装 Vue FullScreenToggler 组件</title>

@@ -21,6 +21,14 @@
       <description>&lt;div class=&#34;details admonition quote open&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;details-summary admonition-title&#34;&gt;&lt;i class=&#34;icon fa-fw fa-solid fa-quote-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;解決痛點&lt;i class=&#34;details-icon fa-solid fa-angle-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/div&gt;&lt;div class=&#34;details-content&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;admonition-content&#34;&gt;Github Actions 真是靜態博客的福音，有了它 hugo, hexo 等博客構建過程可以丟給 Github 的服務器幫我們做了。&lt;br&gt;&#xA;也就是説實現了在線寫靜態博客的需求。&lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
+      <title>利用腾讯云为静态页面添加“动态”相册</title>
+      <link>http://localhost:1313/projects/cos-album/</link>
+      <pubDate>Sun, 24 Nov 2019 10:52:34 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/projects/cos-album/</guid>
+      <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
+      <description>&lt;!-- markdownlint-disable MD033 --&gt;&#xA;&lt;div class=&#34;details admonition info open&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;details-summary admonition-title&#34;&gt;&lt;i class=&#34;icon fa-fw fa-solid fa-circle-info&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;信息&lt;i class=&#34;details-icon fa-solid fa-angle-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/div&gt;&lt;div class=&#34;details-content&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;admonition-content&#34;&gt;cos 桶相册，终于！！终于来了！！，idea 来自 [兰州小红鸡 - 给 hexo 静态博客添加动态相册功能]，&lt;br&gt;&#xA;&lt;strong&gt;&lt;span style=&#34;color: #428bca;&#34;&gt;功能虽好，但是还是先友情提示！&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;&#xA;开放 API 是一个&lt;strong&gt;很危险&lt;/strong&gt;的操作，意味着你的 cos 桶里面的所有资源包括目录结构都暴露的整个世界中，所以建议不要放一些比较私密的照片，保护自己的隐私，提防不良用心之人。下面就开始吧！&lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
       <title>利用腾讯云对象存储 COS 桶托管 hexo 博客</title>
       <link>http://localhost:1313/posts/cos-hexo/</link>
       <pubDate>Tue, 22 Jan 2019 14:57:08 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>

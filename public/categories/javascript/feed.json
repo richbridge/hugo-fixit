@@ -51,6 +51,24 @@
       "content_html": "\u003cp\u003e江湖传言，西土浏览器界有隐世高人，名曰“原生老祖”。老祖膝下三徒，各执一柄钥匙，开得了黑盒，锁得住乾坤。今日大话，诸位英雄且把耳洞放大，听我一一道来！\u003c/p\u003e"
     },
     {
+      "title": "临时决定再写一个小工具 - 网站预览图生成器",
+      "date_published": "2024-04-04T13:23:37&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/projects/apple-devices-preview/",
+      "url": "http://localhost:1313/projects/apple-devices-preview/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Vue2"],
+      "image": "http://localhost:1313/projects/apple-devices-preview/images/cover.webp",
+      "summary": "开发完 CoverView之后，在调整博客文章封面图的时候，我发现首页的多端缩略图还是只能自己 P 图诶，于是我又决定再写一个小工具，用来生成网站预览图。。\n",
+      "content_html": "\u003cp\u003e开发完 \u003ca href=\"https://github.com/Lruihao/CoverView\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003eCoverView\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e之后，在调整博客文章封面图的时候，我发现首页的多端缩略图还是只能自己 P 图诶，于是我又决定再写一个小工具，用来生成网站预览图。。\u003c/p\u003e"
+    },
+    {
       "title": "实现类似于 Element UI 表格的溢出文本提示功能",
       "date_published": "2024-02-29T16:46:00&#43;08:00",
       "date_modified": "2026-01-04T22:17:04&#43;08:00",
@@ -220,6 +238,41 @@
       "tags": ["Lightbox","JavaScript"],
       "summary": "7 簡介\rLightbox（燈箱），用来放大显示图片覆盖于当前页面之上。其是用 CSS 来定义图片容器，用一幅半透明的 png 图片实现渐变阴暗的效果。\n",
       "content_html": "\u003ch2 class=\"heading-element\" id=\"簡介\"\u003e\u003cspan\u003e7 簡介\u003c/span\u003e\r\n  \u003ca href=\"#%e7%b0%a1%e4%bb%8b\" class=\"heading-mark\"\u003e\r\n    \u003csvg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"\u003e\u003cpath d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"\u003e\u003c/path\u003e\u003c/svg\u003e\r\n  \u003c/a\u003e\r\n\u003c/h2\u003e\u003cp\u003eLightbox（燈箱），用来放大显示图片覆盖于当前页面之上。其是用 CSS 来定义图片容器，用一幅半透明的 png 图片实现渐变阴暗的效果。\u003c/p\u003e"
+    },
+    {
+      "title": "Cell Watermark",
+      "date_published": "2021-05-23T17:15:41&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/projects/cell-watermark/",
+      "url": "http://localhost:1313/projects/cell-watermark/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["watermark","JavaScript"],
+      "summary": "Create watermark for webpage and automatic adjust when window resize.",
+      "content_html": "Create watermark for webpage and automatic adjust when window resize."
+    },
+    {
+      "title": "利用腾讯云为静态页面添加“动态”相册",
+      "date_published": "2019-11-24T10:52:34&#43;08:00",
+      "date_modified": "2019-11-24T10:52:34&#43;08:00",
+      "id": "http://localhost:1313/projects/cos-album/",
+      "url": "http://localhost:1313/projects/cos-album/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["CosAlbum","腾讯云 cos 桶","JavaScript"],
+      "image": "/projects/cos-album/images/view.png",
+      "summary": " 信息\rcos 桶相册，终于！！终于来了！！，idea 来自 [兰州小红鸡 - 给 hexo 静态博客添加动态相册功能]，\n功能虽好，但是还是先友情提示！\n开放 API 是一个很危险的操作，意味着你的 cos 桶里面的所有资源包括目录结构都暴露的整个世界中，所以建议不要放一些比较私密的照片，保护自己的隐私，提防不良用心之人。下面就开始吧！\r",
+      "content_html": "\u003c!-- markdownlint-disable MD033 --\u003e\n\u003cdiv class=\"details admonition info open\"\u003e\r\n    \u003cdiv class=\"details-summary admonition-title\"\u003e\u003ci class=\"icon fa-fw fa-solid fa-circle-info\" aria-hidden=\"true\"\u003e\u003c/i\u003e信息\u003ci class=\"details-icon fa-solid fa-angle-right fa-fw\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/div\u003e\u003cdiv class=\"details-content\"\u003e\r\n      \u003cdiv class=\"admonition-content\"\u003ecos 桶相册，终于！！终于来了！！，idea 来自 [兰州小红鸡 - 给 hexo 静态博客添加动态相册功能]，\u003cbr\u003e\n\u003cstrong\u003e\u003cspan style=\"color: #428bca;\"\u003e功能虽好，但是还是先友情提示！\u003c/span\u003e\u003c/strong\u003e\u003cbr\u003e\n开放 API 是一个\u003cstrong\u003e很危险\u003c/strong\u003e的操作，意味着你的 cos 桶里面的所有资源包括目录结构都暴露的整个世界中，所以建议不要放一些比较私密的照片，保护自己的隐私，提防不良用心之人。下面就开始吧！\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e"
     },
     {
       "title": "设置网站运行时间",

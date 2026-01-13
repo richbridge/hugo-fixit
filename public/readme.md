@@ -2,7 +2,7 @@
 
 > Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。
 
-共计 239 篇文章 by [Lruihao](https://github.com/Lruihao).
+共计 249 篇文章 by [Lruihao](https://github.com/Lruihao).
 
 ## 2025
 
@@ -21,7 +21,7 @@
 ## 2024
 
 <details>
-<summary>共计 19 篇文章</summary>
+<summary>共计 22 篇文章</summary>
 
 - 12-06 [震惊！CSS 竟然能获取视口尺寸？](http://localhost:1313/posts/css-viewport/ "2024-12-06 10:32:22")
 - 11-22 [Amazon 如何让服务器享受着持续集群安全？](http://localhost:1313/posts/91db0fa/ "2024-11-22 14:01:18")
@@ -35,6 +35,9 @@
 - 06-13 [如何实现 VSCode 编辑器窗口边界拖拽类似功能](http://localhost:1313/posts/aside-toggle-drag/ "2024-06-13 21:03:12")
 - 06-09 [架构之基：从根儿上了解设计原则](http://localhost:1313/posts/design-principles/ "2024-06-09 02:24:31")
 - 06-06 [怎么生成暗黑模式和明亮模式的 SVG 图片？](http://localhost:1313/posts/svg-dark-light/ "2024-06-06 22:13:26")
+- 04-17 [利用 Vercel 反代 Gravatar 实现镜像加速](http://localhost:1313/projects/vercel-gravatar/ "2024-04-17 12:51:35")
+- 04-04 [临时决定再写一个小工具 - 网站预览图生成器](http://localhost:1313/projects/apple-devices-preview/ "2024-04-04 13:23:37")
+- 04-02 [用五天时间给自己制作一个封面图生成工具](http://localhost:1313/projects/coverview/ "2024-04-02 18:05:34")
 - 03-26 [写文档时英文标题什么时候要大写？](http://localhost:1313/posts/c6bc2d5/ "2024-03-26 12:23:44")
 - 02-29 [实现类似于 Element UI 表格的溢出文本提示功能](http://localhost:1313/posts/overflow-tooltip/ "2024-02-29 16:46:00")
 - 02-21 [聊聊 Chrome 新增的 sizes="auto" 属性](http://localhost:1313/posts/auto-sizes/ "2024-02-21 10:00:13")
@@ -48,9 +51,10 @@
 ## 2023
 
 <details>
-<summary>共计 29 篇文章</summary>
+<summary>共计 31 篇文章</summary>
 
 - 12-22 [尝试在 Python 中使用 Amazon Titan 文本模型](http://localhost:1313/posts/d8ae205/ "2023-12-22 19:58:47")
+- 11-28 [用 Node.js 开发一个轻量脚手架](http://localhost:1313/projects/fixit-cli/ "2023-11-28 10:48:07")
 - 11-18 [探索 AWS 云上一站式解决方案免费使用](http://localhost:1313/posts/aws-solution/ "2023-11-18 12:52:37")
 - 10-22 [SSH 提交签名验证](http://localhost:1313/posts/ssh-sign/ "2023-10-22 18:59:31")
 - 10-12 [如何给 npm 包打补丁？](http://localhost:1313/posts/patch-package/ "2023-10-12 22:37:56")
@@ -63,6 +67,7 @@
 - 10-11 [给你的 Markdown 挑挑刺](http://localhost:1313/posts/markdownlint/ "2023-10-11 14:26:48")
 - 10-08 [认知复杂度（Cognitive Complexity）](http://localhost:1313/posts/cognitive-complexity/ "2023-10-08 09:52:44")
 - 09-26 [写作技巧：如何搭建文章的框架结构？](http://localhost:1313/posts/article-structure/ "2023-09-26 15:17:52")
+- 09-25 [如何让 Element UI 表头、表尾、横向滚动条吸顶吸底固定？](http://localhost:1313/projects/el-table-sticky/ "2023-09-25 17:49:58")
 - 09-17 [封装 Vue FullScreenToggler 组件](http://localhost:1313/posts/vue-fullscreen-toggler/ "2023-09-17 19:44:07")
 - 09-15 [JS 实现全屏和退出全屏](http://localhost:1313/posts/js-fullscreen/ "2023-09-15 17:29:25")
 - 09-15 [中文翻译的常见问题](http://localhost:1313/posts/translation-guide/ "2023-09-15 11:07:56")
@@ -107,7 +112,7 @@
 ## 2021
 
 <details>
-<summary>共计 11 篇文章</summary>
+<summary>共计 13 篇文章</summary>
 
 - 12-22 [Getting Things Done for ios App Reminders and Github issues](http://localhost:1313/posts/gtd/ "2021-12-22 20:17:42")
 - 10-05 [Sublime 剪贴板图片粘贴插件 —— Markdown 必备](http://localhost:1313/posts/subl_imgpaste2/ "2021-10-05 21:54:06")
@@ -119,15 +124,18 @@
 - 10-03 [个人博客从 Hexo 迁移至 Hugo](http://localhost:1313/posts/hexo-to-hugo/ "2021-10-03 15:27:58")
 - 06-22 [less&sass&scss](http://localhost:1313/posts/less-sass-scss/ "2021-06-22 16:39:47")
 - 06-21 [Lightbox](http://localhost:1313/posts/lightbox/ "2021-06-21 16:18:04")
+- 05-23 [Cell Watermark](http://localhost:1313/projects/cell-watermark/ "2021-05-23 17:15:41")
 - 03-04 [Code Review 怎麼做？新手工程師如何提升「程式碼品質」](http://localhost:1313/posts/codereview/ "2021-03-04 21:04:18")
+- 03-02 [基于 leancloud-storage 实现的无后端记账本](http://localhost:1313/projects/bill-note/ "2021-03-02 21:46:40")
 
 </details>
 
 ## 2020
 
 <details>
-<summary>共计 5 篇文章</summary>
+<summary>共计 6 篇文章</summary>
 
+- 07-25 [cell-blog 功能介绍与安装](http://localhost:1313/projects/cell-blog/ "2020-07-25 20:51:11")
 - 07-25 [cell-blog 开发记录](http://localhost:1313/posts/cell-blog-dev/ "2020-07-25 20:42:42")
 - 03-26 [使用 Python 刷 csdn 访问量](http://localhost:1313/posts/csdnvisiter/ "2020-03-26 11:08:38")
 - 03-25 [Cron 表达式的基本语法](http://localhost:1313/posts/cron/ "2020-03-25 09:19:44")
@@ -139,8 +147,9 @@
 ## 2019
 
 <details>
-<summary>共计 66 篇文章</summary>
+<summary>共计 67 篇文章</summary>
 
+- 11-24 [利用腾讯云为静态页面添加“动态”相册](http://localhost:1313/projects/cos-album/ "2019-11-24 10:52:34")
 - 11-14 [RESTful](http://localhost:1313/posts/restful/ "2019-11-14 19:06:05")
 - 09-28 [php 同时主动推送链接到百度，神马等站长平台](http://localhost:1313/posts/phppushurl/ "2019-09-28 18:32:42")
 - 09-28 [php 按行读取文件信息](http://localhost:1313/posts/phpfile/ "2019-09-28 17:11:17")
@@ -213,7 +222,7 @@
 ## 2018
 
 <details>
-<summary>共计 89 篇文章</summary>
+<summary>共计 90 篇文章</summary>
 
 - 12-10 [英语语法--形式倒装](http://localhost:1313/posts/inversion-3/ "2018-12-10 21:52:30")
 - 12-10 [英语语法--完全倒装](http://localhost:1313/posts/inversion-2/ "2018-12-10 21:14:51")
@@ -235,6 +244,7 @@
 - 10-23 [termux 基本使用教程](http://localhost:1313/posts/termux1/ "2018-10-23 22:16:02")
 - 10-17 [ttf 字体压缩](http://localhost:1313/posts/web-font/ "2018-10-17 21:38:06")
 - 10-15 [linux 编程初体验](http://localhost:1313/posts/linux-hello-c/ "2018-10-15 21:19:27")
+- 10-12 [沐目体](http://localhost:1313/projects/font-mmt/ "2018-10-12 19:39:19")
 - 10-09 [流水线](http://localhost:1313/posts/liushuixian/ "2018-10-09 16:21:04")
 - 10-08 [计算机数据](http://localhost:1313/posts/data/ "2018-10-08 23:01:10")
 - 09-27 [网页夜间效果](http://localhost:1313/posts/night/ "2018-09-27 13:13:31")

@@ -38,10 +38,10 @@ commentCount = true # FixIt NEW | 0.2.13
 # FixIt 0.2.14 | NEW Giscus comments config (https://giscus.app/)
 [page.comment.giscus]
 enable = true
-repo = "Lruihao/hugo-blog"
-repoId = "MDEwOlJlcG9zaXRvcnk0MDQzNDY3MDk="
+repo = "richbridge/hugo-fixit"
+repoId = "R_kgDOQ0XUaQ="
 category = "General"
-categoryId = "DIC_kwDOGBnXVc4CApHL"
+categoryId = "DIC_kwDOQ0XUac4C0n7q"
 mapping = "title"
 strict = "0" # FixIt NEW | 0.2.18
 term = ""

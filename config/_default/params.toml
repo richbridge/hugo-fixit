@@ -6,9 +6,9 @@
 # FixIt theme version
 version = "0.4.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。"
+description = "红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。"
 # site keywords
-keywords = ["李瑞豪", "李瑞豪的博客", "菠菜眾長", "博採眾長", "Lruihao", "Cell", "Hugo FixIt"]
+keywords = ["RichFan", "RichFan的博客", "樊尘刹记", "樊尘刹记", "RichFan", "Cell", "RichFan"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
@@ -45,15 +45,15 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-name = "Lruihao"
-email = "1024@lruihao.cn"
-link = "https://github.com/Lruihao"
+name = "richfan"
+email = "richffan@outlook.com"
+link = "https://github.com/richbridge"
 avatar = "/images/avatar.jpg"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
 # e.g. "https://github.com/hugo-fixit/docs"
-repo = "https://github.com/Lruihao/hugo-blog"
+repo = "https://github.com/richbridge/hugo-fixit"
 branch = "docs"
 # the content directory path relative to the root of the repository
 dir = "content"
@@ -64,7 +64,7 @@ issueTpl = "title=[BUG]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0
 # App icon config
 [app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
-title = "菠菜眾長"
+title = "樊尘刹记"
 # whether to omit favicon resource links
 noFavicon = false
 # modern SVG favicon to use in place of older style .png and .ico files
@@ -141,7 +141,7 @@ mobileMode = "auto"
 # URL of the LOGO
 logo = "/logo.webp"
 # title name
-name = "菠菜众长"
+name = "樊尘刹记"
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -152,7 +152,7 @@ typeit = false
 # FixIt 0.2.12 | NEW Header subtitle config
 [header.subtitle]
 # subtitle name
-name = "李瑞豪的博客"
+name = "RichFan的博客"
 # whether to use typeit animation for subtitle name
 typeit = false
 
@@ -277,9 +277,9 @@ avatarURL = "/images/avatar.jpg"
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = "about"
 # title shown in home page (HTML format is supported)
-title = "Lruihao's Note"
+title = "RichFan's Note"
 # subtitle shown in home page (HTML format is supported)
-subtitle = "不怕萬人阻擋，只怕自己投降"
+subtitle = "红尘湮灭，唯有尘刹"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
@@ -295,9 +295,9 @@ paginate = 10
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-GitHub = "Lruihao"
-Weibo = "liahao"
-Email = "1024@lruihao.cn"
+GitHub = "richbridge"
+Weibo = "fanrich"
+Email = "richffan@outlook.com"
 RSS = true
 Linkedin = ""
 Twitter = ""
@@ -478,7 +478,7 @@ selector = "article" # FixIt 0.2.17 | NEW
 [watermark]
 enable = true
 # watermark's text (HTML format is supported)
-content = '<img style="height: 0.85rem;" src="/logo.webp" alt="logo" /> 李瑞豪'
+content = '<img style="height: 0.85rem;" src="/logo.webp" alt="logo" /> RichFan'
 # watermark's transparency
 opacity = 0.0125
 # watermark's width. unit: px

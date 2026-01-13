@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "菠菜眾長"
+title = "樊尘刹记"
 # Hostname (and path) to the root
 baseURL = "http://localhost:1313"
 # theme list

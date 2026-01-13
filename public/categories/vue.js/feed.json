@@ -49,6 +49,24 @@
       "content_html": "\u003cp\u003e边界拖拽调整窗口大小功能是一个很常见的功能，比如浏览器、编辑器等很多场景都有应用，这种功能不仅提高了用户体验，也增强了应用的灵活性。\u003c/p\u003e"
     },
     {
+      "title": "临时决定再写一个小工具 - 网站预览图生成器",
+      "date_published": "2024-04-04T13:23:37&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/projects/apple-devices-preview/",
+      "url": "http://localhost:1313/projects/apple-devices-preview/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Vue2"],
+      "image": "http://localhost:1313/projects/apple-devices-preview/images/cover.webp",
+      "summary": "开发完 CoverView之后，在调整博客文章封面图的时候，我发现首页的多端缩略图还是只能自己 P 图诶，于是我又决定再写一个小工具，用来生成网站预览图。。\n",
+      "content_html": "\u003cp\u003e开发完 \u003ca href=\"https://github.com/Lruihao/CoverView\" target=\"_blank\" rel=\"external nofollow noopener noreferrer\"\u003eCoverView\u003ci class=\"fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary\" aria-hidden=\"true\"\u003e\u003c/i\u003e\u003c/a\u003e之后，在调整博客文章封面图的时候，我发现首页的多端缩略图还是只能自己 P 图诶，于是我又决定再写一个小工具，用来生成网站预览图。。\u003c/p\u003e"
+    },
+    {
       "title": "实现类似于 Element UI 表格的溢出文本提示功能",
       "date_published": "2024-02-29T16:46:00&#43;08:00",
       "date_modified": "2026-01-04T22:17:04&#43;08:00",
@@ -218,6 +236,23 @@
       ],
       "tags": ["拖拽式仪表盘","dashboard","Vue2"],
       "content_html": "关于拖拽式仪表盘的设计与开发系列文章。"
+    },
+    {
+      "title": "如何让 Element UI 表头、表尾、横向滚动条吸顶吸底固定？",
+      "date_published": "2023-09-25T17:49:58&#43;08:00",
+      "date_modified": "2026-01-04T22:17:04&#43;08:00",
+      "id": "http://localhost:1313/projects/el-table-sticky/",
+      "url": "http://localhost:1313/projects/el-table-sticky/",
+      "authors": [
+        {
+          "name": "Lruihao",
+          "url": "https://github.com/Lruihao",
+          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+        }
+      ],
+      "tags": ["Vue2"],
+      "summary": "本文将介绍如何通过自定义指令的方式实现 Element UI 表格的表头吸顶、表尾吸底、滚动条吸底以及高度自适应功能。\n",
+      "content_html": "\u003cp\u003e本文将介绍如何通过自定义指令的方式实现 Element UI 表格的表头吸顶、表尾吸底、滚动条吸底以及高度自适应功能。\u003c/p\u003e"
     },
     {
       "title": "封装 Vue FullScreenToggler 组件",

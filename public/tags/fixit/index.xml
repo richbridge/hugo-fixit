@@ -21,6 +21,14 @@
       <description>&lt;p&gt;Mermaid 是目前最流行的「文本即图表」渲染库，但它对「系统深浅色自动切换」的支持一直暧昧不明。官方 Roadmap 里偶有提及，却始终没有一个简单、稳定、文档化的 API。&lt;br&gt;&#xA;不过社区里已有大量站点（mermaid.live、Obsidian、Notion-like 产品等）实现了丝滑的 Light/Dark 自适应。本文把目前能落地的三条路线一次性梳理出来，并给出最小可运行示例，方便你按需取用。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>用 Node.js 开发一个轻量脚手架</title>
+      <link>http://localhost:1313/projects/fixit-cli/</link>
+      <pubDate>Tue, 28 Nov 2023 10:48:07 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/projects/fixit-cli/</guid>
+      <category domain="http://localhost:1313/categories/node.js/">Node.js</category>
+      <description>&lt;p&gt;本文将介绍如何用 Node.js 开发一个轻量脚手架，以 &lt;a href=&#34;https://github.com/hugo-fixit/fixit-cli&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;fixit-cli&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; 为例。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hugo I18n 添加中文繁體翻譯</title>
       <link>http://localhost:1313/posts/hugo-i18n-zh-tw/</link>
       <pubDate>Tue, 05 Oct 2021 19:14:45 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>

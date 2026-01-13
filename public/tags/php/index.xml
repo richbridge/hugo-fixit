@@ -12,6 +12,14 @@
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>cell-blog 功能介绍与安装</title>
+      <link>http://localhost:1313/projects/cell-blog/</link>
+      <pubDate>Sat, 25 Jul 2020 20:51:11 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <guid>http://localhost:1313/projects/cell-blog/</guid>
+      <category domain="http://localhost:1313/categories/php/">PHP</category>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;基于 Laravel7 开发，Markdown 语法的个人独立博客。&lt;a href=&#34;https://github.com/Lruihao/cell-blog&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Cell Blog&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;, 也是我的毕业设计作品，目前已開源。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
       <title>cell-blog 开发记录</title>
       <link>http://localhost:1313/posts/cell-blog-dev/</link>
       <pubDate>Sat, 25 Jul 2020 20:42:42 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
