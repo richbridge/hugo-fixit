@@ -8,4 +8,4 @@ path = "fixit-bundle"
 
 [hugoVersion]
 extended = true
-min = "0.147.7"
+min = "0.154.5"
