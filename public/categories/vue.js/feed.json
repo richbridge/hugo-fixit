@@ -1,15 +1,15 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Vue.js - 分类 | 菠菜眾長",
-  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "title": "Vue.js - 分类 | 樊尘刹记",
+  "description": "红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
   "home_page_url": "http://localhost:1313/",
   "language": "zh-CN",
   "icon": "http://localhost:1313/apple-touch-icon.png",
   "favicon": "http://localhost:1313/favicon.ico",
   "authors": [
     {
-      "name": "Lruihao",
-      "url": "https://github.com/Lruihao",
+      "name": "richfan",
+      "url": "https://github.com/richbridge",
       "avatar": "http://localhost:1313/images/avatar.jpg"
     }
   ],
@@ -22,9 +22,9 @@
       "url": "http://localhost:1313/posts/vue-build/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["nginx","Vue3","proxy"],
@@ -39,9 +39,9 @@
       "url": "http://localhost:1313/posts/aside-toggle-drag/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2","CSS","JavaScript"],
@@ -56,9 +56,9 @@
       "url": "http://localhost:1313/projects/apple-devices-preview/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2"],
@@ -74,9 +74,9 @@
       "url": "http://localhost:1313/posts/overflow-tooltip/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2"],
@@ -91,9 +91,9 @@
       "url": "http://localhost:1313/posts/900d5e4/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["debug","Vue2","Vue3","TypeScript"],
@@ -109,9 +109,9 @@
       "url": "http://localhost:1313/posts/el-card-collapse/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2"],
@@ -126,9 +126,9 @@
       "url": "http://localhost:1313/posts/dashboard-summary/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","widget","Vue2","总结"],
@@ -143,9 +143,9 @@
       "url": "http://localhost:1313/posts/dashborad-widget-usage/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","widget","Vue2"],
@@ -160,9 +160,9 @@
       "url": "http://localhost:1313/posts/dashborad-template-usage/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","Vue2"],
@@ -178,9 +178,9 @@
       "url": "http://localhost:1313/posts/dashborad-widget-docs/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","widget","Vue2"],
@@ -195,9 +195,9 @@
       "url": "http://localhost:1313/posts/dashborad-template-docs/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","Vue2"],
@@ -212,9 +212,9 @@
       "url": "http://localhost:1313/posts/dashboard-analysis/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","Vue2","需求分析"],
@@ -229,9 +229,9 @@
       "url": "http://localhost:1313/posts/draggable-dashboard/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["拖拽式仪表盘","dashboard","Vue2"],
@@ -245,9 +245,9 @@
       "url": "http://localhost:1313/projects/el-table-sticky/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2"],
@@ -262,9 +262,9 @@
       "url": "http://localhost:1313/posts/vue-fullscreen-toggler/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2","JavaScript"],
@@ -279,9 +279,9 @@
       "url": "http://localhost:1313/posts/vue-svg-icon/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["SVG","Vue2"],
@@ -296,9 +296,9 @@
       "url": "http://localhost:1313/posts/el-backtop-fix/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2"],
@@ -313,9 +313,9 @@
       "url": "http://localhost:1313/posts/v2-tailwind/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["tailwindcss","Vue2","CSS","eslint"],
@@ -330,9 +330,9 @@
       "url": "http://localhost:1313/posts/vue2-guid/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2","他山之石"],

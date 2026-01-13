@@ -1,15 +1,15 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "ACM - 分类 | 菠菜眾長",
-  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "title": "ACM - 分类 | 樊尘刹记",
+  "description": "红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
   "home_page_url": "http://localhost:1313/",
   "language": "zh-CN",
   "icon": "http://localhost:1313/apple-touch-icon.png",
   "favicon": "http://localhost:1313/favicon.ico",
   "authors": [
     {
-      "name": "Lruihao",
-      "url": "https://github.com/Lruihao",
+      "name": "richfan",
+      "url": "https://github.com/richbridge",
       "avatar": "http://localhost:1313/images/avatar.jpg"
     }
   ],
@@ -22,9 +22,9 @@
       "url": "http://localhost:1313/posts/gcd-bit/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["欧几里得","数学","数论","C"],
@@ -39,9 +39,9 @@
       "url": "http://localhost:1313/posts/hdu1009/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","贪心","HDU"],
@@ -56,9 +56,9 @@
       "url": "http://localhost:1313/posts/bqbj/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM"],
@@ -73,9 +73,9 @@
       "url": "http://localhost:1313/posts/dacheng/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","大数运算","ACM","C"],
@@ -90,9 +90,9 @@
       "url": "http://localhost:1313/posts/nowcoder157a/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","组合数学","ACM","Nowcoder","C++"],
@@ -107,9 +107,9 @@
       "url": "http://localhost:1313/posts/codeforces476a/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Codeforces","ACM","数学","C++","C"],
@@ -124,9 +124,9 @@
       "url": "http://localhost:1313/posts/codeforces476b/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["组合数学","Codeforces","ACM","数学","C++","C"],
@@ -141,9 +141,9 @@
       "url": "http://localhost:1313/posts/euclid/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","数论","ACM","欧几里得","他山之石","C++","C"],
@@ -158,9 +158,9 @@
       "url": "http://localhost:1313/posts/lightoj1282/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数论","数学","快速幂","ACM","C"],
@@ -175,9 +175,9 @@
       "url": "http://localhost:1313/posts/cfcontest1017/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","Codeforces","组合数学","C++"],
@@ -192,9 +192,9 @@
       "url": "http://localhost:1313/posts/euler/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","数论","euler","C"],
@@ -209,9 +209,9 @@
       "url": "http://localhost:1313/posts/poj1797/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","POJ","最短路","C++"],
@@ -226,9 +226,9 @@
       "url": "http://localhost:1313/posts/poj2387/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","最短路","C++","C"],
@@ -243,9 +243,9 @@
       "url": "http://localhost:1313/posts/zuiduanlu/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["最短路","ACM"],
@@ -260,9 +260,9 @@
       "url": "http://localhost:1313/posts/nowcodersummer-5th/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Nowcoder","ACM","C++"],
@@ -277,9 +277,9 @@
       "url": "http://localhost:1313/posts/poj1182/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","并查集","POJ","C++","C"],
@@ -294,9 +294,9 @@
       "url": "http://localhost:1313/posts/hdu1272/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","并查集","HDU","C++","C"],
@@ -311,9 +311,9 @@
       "url": "http://localhost:1313/posts/hdu3038/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["并查集","ACM","HDU","C++"],
@@ -328,9 +328,9 @@
       "url": "http://localhost:1313/posts/codeforces680b/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Codeforces","ACM","C++"],
@@ -345,9 +345,9 @@
       "url": "http://localhost:1313/posts/codeforces680a/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Codeforces","ACM","C++"],
@@ -362,9 +362,9 @@
       "url": "http://localhost:1313/posts/how-tables/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["并查集","HDU","C++","ACM"],
@@ -379,9 +379,9 @@
       "url": "http://localhost:1313/posts/poj-1611/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["并查集","POJ","ACM","C","C++"],
@@ -396,9 +396,9 @@
       "url": "http://localhost:1313/posts/poj-2236/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["并查集","ACM","POJ","C++","C"],
@@ -413,9 +413,9 @@
       "url": "http://localhost:1313/posts/piles-with-stones/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","Codeforces","C++"],
@@ -430,9 +430,9 @@
       "url": "http://localhost:1313/posts/%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","并查集","HDU","C++","C"],
@@ -447,9 +447,9 @@
       "url": "http://localhost:1313/posts/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B23/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Nowcoder","ACM","C++","C"],
@@ -464,9 +464,9 @@
       "url": "http://localhost:1313/posts/hdu-1495/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","HDU","搜索","C++"],
@@ -481,9 +481,9 @@
       "url": "http://localhost:1313/posts/hdu-2612/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","HDU","搜索","C++"],
@@ -498,9 +498,9 @@
       "url": "http://localhost:1313/posts/poj-3278/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["BFS","ACM","搜索","POJ","C++"],
@@ -515,9 +515,9 @@
       "url": "http://localhost:1313/posts/poj-2251/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["BFS","ACM","搜索","POJ","C++","C"],
@@ -532,9 +532,9 @@
       "url": "http://localhost:1313/posts/poj-1321/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["DFS","ACM","搜索","POJ","C++"],
@@ -549,9 +549,9 @@
       "url": "http://localhost:1313/posts/poj-1426/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["DFS","ACM","搜索","POJ","C++"],
@@ -566,9 +566,9 @@
       "url": "http://localhost:1313/posts/adjacent-replacements/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Codeforces","ACM","C++"],
@@ -583,9 +583,9 @@
       "url": "http://localhost:1313/posts/poj-3984/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["BFS","ACM","POJ","C++","C"],
@@ -600,9 +600,9 @@
       "url": "http://localhost:1313/posts/wannafly-20/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","Nowcoder","C++","C"],
@@ -617,9 +617,9 @@
       "url": "http://localhost:1313/posts/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","杨辉三角"],
@@ -634,9 +634,9 @@
       "url": "http://localhost:1313/posts/hdu-1241/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["DFS","搜索","HDU","ACM","C++"],
@@ -651,9 +651,9 @@
       "url": "http://localhost:1313/posts/bfs%E6%B1%82%E6%9C%80%E7%9F%AD%E8%B7%AF/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["BFS","搜索","C++"],
@@ -668,9 +668,9 @@
       "url": "http://localhost:1313/posts/cf-1009/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Codeforces","ACM","C++","C"],
@@ -685,9 +685,9 @@
       "url": "http://localhost:1313/posts/dfs_bfs/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","BFS","DFS","搜索","C","C++"],
@@ -702,9 +702,9 @@
       "url": "http://localhost:1313/posts/taotao%E8%A6%81%E5%90%83%E9%B8%A1/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["背包问题","Nowcoder","C++"],
@@ -719,9 +719,9 @@
       "url": "http://localhost:1313/posts/wannafly-18/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["组合数学","ACM","Nowcoder","C++","C"],
@@ -736,9 +736,9 @@
       "url": "http://localhost:1313/posts/%E7%AE%80%E5%8D%95%E8%83%8C%E5%8C%85/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["背包问题","C"],
@@ -753,9 +753,9 @@
       "url": "http://localhost:1313/posts/18%E6%B9%98%E6%BD%AD%E9%82%80%E8%AF%B7%E8%B5%9B%E9%98%9F%E5%91%98%E4%BB%A3%E8%A1%A8%E5%8F%91%E8%A8%80/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","2018 湘潭邀请赛"],
@@ -770,9 +770,9 @@
       "url": "http://localhost:1313/posts/f-sorting/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["2018 湘潭邀请赛","ACM"],
@@ -787,9 +787,9 @@
       "url": "http://localhost:1313/posts/k-2018/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["2018 湘潭邀请赛","ACM","C++"],
@@ -804,9 +804,9 @@
       "url": "http://localhost:1313/posts/b-higher/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","2018 湘潭邀请赛","C++","C"],
@@ -821,9 +821,9 @@
       "url": "http://localhost:1313/posts/a-easy/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["2018 湘潭邀请赛","ACM","C++"],
@@ -838,9 +838,9 @@
       "url": "http://localhost:1313/posts/c-sort/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["C++","sort","STL","ACM"],
@@ -855,9 +855,9 @@
       "url": "http://localhost:1313/posts/c-with-stl/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["ACM","STL","C++"],

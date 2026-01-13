@@ -1,15 +1,15 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "他山之石 - 标签 | 菠菜眾長",
-  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "title": "他山之石 - 标签 | 樊尘刹记",
+  "description": "红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
   "home_page_url": "http://localhost:1313/",
   "language": "zh-CN",
   "icon": "http://localhost:1313/apple-touch-icon.png",
   "favicon": "http://localhost:1313/favicon.ico",
   "authors": [
     {
-      "name": "Lruihao",
-      "url": "https://github.com/Lruihao",
+      "name": "richfan",
+      "url": "https://github.com/richbridge",
       "avatar": "http://localhost:1313/images/avatar.jpg"
     }
   ],
@@ -22,9 +22,9 @@
       "url": "http://localhost:1313/posts/translation-guide/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["他山之石"],
@@ -39,9 +39,9 @@
       "url": "http://localhost:1313/posts/vue2-guid/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Vue2","他山之石"],
@@ -56,9 +56,9 @@
       "url": "http://localhost:1313/posts/linux-permission/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["linux","Mac","他山之石"],
@@ -73,9 +73,9 @@
       "url": "http://localhost:1313/posts/sublime-text3/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Sublime","他山之石"],
@@ -90,9 +90,9 @@
       "url": "http://localhost:1313/posts/ifzhushi/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["HTML","他山之石"],
@@ -107,9 +107,9 @@
       "url": "http://localhost:1313/posts/jsoninfo/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Python","JSON","他山之石"],
@@ -125,9 +125,9 @@
       "url": "http://localhost:1313/posts/wxpy1/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Python","wxpy","pyecharts","jieba","他山之石"],
@@ -143,9 +143,9 @@
       "url": "http://localhost:1313/posts/hexo-theme-next/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","Node.js","他山之石"],
@@ -177,9 +177,9 @@
       "url": "http://localhost:1313/posts/js-device/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["JavaScript","他山之石"],
@@ -194,9 +194,9 @@
       "url": "http://localhost:1313/posts/web-server-yun/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["server","linux","他山之石"],
@@ -211,9 +211,9 @@
       "url": "http://localhost:1313/posts/href-301/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["redirect","JavaScript","他山之石"],
@@ -228,9 +228,9 @@
       "url": "http://localhost:1313/posts/vim/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["vim","他山之石"],
@@ -245,9 +245,9 @@
       "url": "http://localhost:1313/posts/euclid/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["数学","数论","ACM","欧几里得","他山之石","C++","C"],

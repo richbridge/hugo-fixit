@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web Components | 菠菜眾長</title>
+    <title>Web Components | 樊尘刹记</title>
     <link>http://localhost:1313/posts/web-components/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/web-components/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>黑盒出关・三把钥匙定江湖</title>
       <link>http://localhost:1313/posts/wc-01-prologue/</link>
-      <pubDate>Tue, 05 Aug 2025 11:31:52 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 05 Aug 2025 11:31:52 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/wc-01-prologue/</guid>
       <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
       <category domain="http://localhost:1313/categories/html/">HTML</category>

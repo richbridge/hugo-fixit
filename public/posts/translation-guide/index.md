@@ -122,6 +122,6 @@ Like this.
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/translation-guide/  
 > 转载 URL: https://github.com/mdn/translated-content/blob/main/docs/zh-cn/translation-guide.md

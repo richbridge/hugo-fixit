@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laravel - 标签 | 菠菜眾長</title>
+    <title>Laravel - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/laravel/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cell-blog 功能介绍与安装</title>
       <link>http://localhost:1313/projects/cell-blog/</link>
-      <pubDate>Sat, 25 Jul 2020 20:51:11 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 25 Jul 2020 20:51:11 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/projects/cell-blog/</guid>
       <category domain="http://localhost:1313/categories/php/">PHP</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;基于 Laravel7 开发，Markdown 语法的个人独立博客。&lt;a href=&#34;https://github.com/Lruihao/cell-blog&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;Cell Blog&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;, 也是我的毕业设计作品，目前已開源。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -22,7 +22,7 @@
     <item>
       <title>cell-blog 开发记录</title>
       <link>http://localhost:1313/posts/cell-blog-dev/</link>
-      <pubDate>Sat, 25 Jul 2020 20:42:42 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 25 Jul 2020 20:42:42 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/cell-blog-dev/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Cell Blog 开发记录，&lt;a href=&#34;https://github.com/Lruihao/cell-blog&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;项目地址&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>

@@ -1,15 +1,15 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Hexo - 标签 | 菠菜眾長",
-  "description": "Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
+  "title": "Hexo - 标签 | 樊尘刹记",
+  "description": "红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。",
   "home_page_url": "http://localhost:1313/",
   "language": "zh-CN",
   "icon": "http://localhost:1313/apple-touch-icon.png",
   "favicon": "http://localhost:1313/favicon.ico",
   "authors": [
     {
-      "name": "Lruihao",
-      "url": "https://github.com/Lruihao",
+      "name": "richfan",
+      "url": "https://github.com/richbridge",
       "avatar": "http://localhost:1313/images/avatar.jpg"
     }
   ],
@@ -22,9 +22,9 @@
       "url": "http://localhost:1313/posts/hexo-to-hugo/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["FixIt","Hexo","hugo"],
@@ -39,9 +39,9 @@
       "url": "http://localhost:1313/posts/hexo-theme-next/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","Node.js","他山之石"],
@@ -57,9 +57,9 @@
       "url": "http://localhost:1313/posts/linkcard/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","JavaScript"],
@@ -74,9 +74,9 @@
       "url": "http://localhost:1313/posts/cos-hexo/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","hugo","对象存储","腾讯云 cos 桶"],
@@ -91,9 +91,9 @@
       "url": "http://localhost:1313/posts/recent-posts/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo"],
@@ -108,9 +108,9 @@
       "url": "http://localhost:1313/posts/nextplugin/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo"],
@@ -125,9 +125,9 @@
       "url": "http://localhost:1313/posts/next-pdf/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo"],
@@ -142,9 +142,9 @@
       "url": "http://localhost:1313/posts/blog-backup/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Git","Hexo","Node.js"],
@@ -160,9 +160,9 @@
       "url": "http://localhost:1313/posts/crash-cheat/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","JavaScript"],
@@ -177,9 +177,9 @@
       "url": "http://localhost:1313/posts/hexo-wordcount/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","字数统计"],
@@ -194,9 +194,9 @@
       "url": "http://localhost:1313/posts/hexo-d-error/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo"],
@@ -211,9 +211,9 @@
       "url": "http://localhost:1313/posts/dongtaisub/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","JavaScript"],
@@ -228,9 +228,9 @@
       "url": "http://localhost:1313/posts/termux/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","Node.js","termux"],
@@ -245,9 +245,9 @@
       "url": "http://localhost:1313/posts/console-log/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","JavaScript"],
@@ -262,9 +262,9 @@
       "url": "http://localhost:1313/posts/hexobuild/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo","Node.js"],
@@ -279,9 +279,9 @@
       "url": "http://localhost:1313/posts/hexowrite/",
       "authors": [
         {
-          "name": "Lruihao",
-          "url": "https://github.com/Lruihao",
-          "avatar": "https://gravatar.loli.net/avatar/fee47a2f4f2cc71f99a02b0a73ecfee0?s=32&amp;d=mp"
+          "name": "richfan",
+          "url": "https://github.com/richbridge",
+          "avatar": "https://gravatar.loli.net/avatar/051ec2223962ce35bbe10f5e5f43f1aa?s=32&amp;d=mp"
         }
       ],
       "tags": ["Hexo"],

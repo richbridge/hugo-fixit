@@ -1,8 +1,8 @@
-# [菠菜眾長](http://localhost:1313/ "主页")
+# [樊尘刹记](http://localhost:1313/ "主页")
 
-> Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。
+> 红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。
 
-共计 249 篇文章 by [Lruihao](https://github.com/Lruihao).
+共计 249 篇文章 by [richfan](https://github.com/richbridge).
 
 ## 2025
 

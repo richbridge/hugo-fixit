@@ -85,6 +85,6 @@ Amazon S3 的灵活性和可靠性使其成为存储解决方案的理想选择�
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/d1fc0c7/  
 

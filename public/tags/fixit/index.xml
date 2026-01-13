@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FixIt - 标签 | 菠菜眾長</title>
+    <title>FixIt - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/fixit/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/fixit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让 Mermaid 图表自动跟随系统深浅色</title>
       <link>http://localhost:1313/posts/mermaid-theming/</link>
-      <pubDate>Sat, 16 Aug 2025 12:37:49 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 16 Aug 2025 12:37:49 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/mermaid-theming/</guid>
       <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
       <category domain="http://localhost:1313/categories/css/">CSS</category>
@@ -23,7 +23,7 @@
     <item>
       <title>用 Node.js 开发一个轻量脚手架</title>
       <link>http://localhost:1313/projects/fixit-cli/</link>
-      <pubDate>Tue, 28 Nov 2023 10:48:07 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 28 Nov 2023 10:48:07 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/projects/fixit-cli/</guid>
       <category domain="http://localhost:1313/categories/node.js/">Node.js</category>
       <description>&lt;p&gt;本文将介绍如何用 Node.js 开发一个轻量脚手架，以 &lt;a href=&#34;https://github.com/hugo-fixit/fixit-cli&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;fixit-cli&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; 为例。&lt;/p&gt;</description>
@@ -31,7 +31,7 @@
     <item>
       <title>Hugo I18n 添加中文繁體翻譯</title>
       <link>http://localhost:1313/posts/hugo-i18n-zh-tw/</link>
-      <pubDate>Tue, 05 Oct 2021 19:14:45 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 05 Oct 2021 19:14:45 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/hugo-i18n-zh-tw/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;工作上一直常用繁體，最近臨帖也都寫的繁體，所以博客的語言也想換成繁體，但是 LoveIt 主題沒有支持中文繁體。就只好自己添加了。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -39,7 +39,7 @@
     <item>
       <title>个人博客从 Hexo 迁移至 Hugo</title>
       <link>http://localhost:1313/posts/hexo-to-hugo/</link>
-      <pubDate>Sun, 03 Oct 2021 15:27:58 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sun, 03 Oct 2021 15:27:58 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/hexo-to-hugo/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;电脑升级 win 11 后，分盘操作存在 bug, 然后又不小心把装代码的盘格式化了，虽然都有备份到 github, 但是当时为了省事，hexo Node 安装的很多以来插件都没有备份，现在又下载不到了，所以 hexo 博客没办法完整复原，另外，早就觉得基于 Node 的 hexo 实在有些臃肿，且博客内容多了以后部署太慢，就干脆乘机换了好了，经过一段时间寻找，最终选择了基于 Go 的 hugo, 记录一下迁移过程及待办事项。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>

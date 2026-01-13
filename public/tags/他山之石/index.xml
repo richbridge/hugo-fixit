@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>他山之石 - 标签 | 菠菜眾長</title>
+    <title>他山之石 - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E4%BB%96%E5%B1%B1%E4%B9%8B%E7%9F%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中文翻译的常见问题</title>
       <link>http://localhost:1313/posts/translation-guide/</link>
-      <pubDate>Fri, 15 Sep 2023 11:07:56 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Fri, 15 Sep 2023 11:07:56 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/translation-guide/</guid>
       <category domain="http://localhost:1313/categories/spec/">程序猿的自我修养</category>
       <category domain="http://localhost:1313/categories/%E7%BF%BB%E8%AF%91/">翻译</category>
@@ -23,7 +23,7 @@
     <item>
       <title>新手向：Vue 2.0 的建议学习顺序</title>
       <link>http://localhost:1313/posts/vue2-guid/</link>
-      <pubDate>Tue, 14 Mar 2023 08:37:59 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 14 Mar 2023 08:37:59 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/vue2-guid/</guid>
       <category domain="http://localhost:1313/categories/vue.js/">Vue.js</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;注：2.0 已经有&lt;a href=&#34;https://v2.cn.vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;中文文档&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt; 。如果对自己英文有信心，也可以直接阅读&lt;a href=&#34;https://v2.vuejs.org/&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;英文文档&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;。&lt;br&gt;&#xA;此指南仅供参考，请根据自身实际情况灵活调整。&lt;br&gt;&#xA;转载自： &lt;a href=&#34;https://www.zhihu.com/people/evanyou&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;尤雨溪&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，&lt;a href=&#34;https://zhuanlan.zhihu.com/p/23134551&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;新手向：Vue 2.0 的建议学习顺序&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;，2017-08-04 14:51&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -31,7 +31,7 @@
     <item>
       <title>linux 文件权限</title>
       <link>http://localhost:1313/posts/linux-permission/</link>
-      <pubDate>Sat, 30 Jul 2022 17:15:44 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 30 Jul 2022 17:15:44 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/linux-permission/</guid>
       <category domain="http://localhost:1313/categories/os/">OS</category>
       <description>&lt;p&gt;记录 linux 系统下文件权限相关的内容，Mac OS 下类似。&lt;/p&gt;</description>
@@ -39,7 +39,7 @@
     <item>
       <title>Sublime Text3 快捷键大全</title>
       <link>http://localhost:1313/posts/sublime-text3/</link>
-      <pubDate>Thu, 15 Aug 2019 20:59:10 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Thu, 15 Aug 2019 20:59:10 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/sublime-text3/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;p&gt;Sublime Text3 快捷键一览表&lt;/p&gt;</description>
@@ -47,7 +47,7 @@
     <item>
       <title>条件注释判断浏览器版本&lt;!--[if lt IE 9]&gt;;</title>
       <link>http://localhost:1313/posts/ifzhushi/</link>
-      <pubDate>Fri, 10 May 2019 13:08:27 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Fri, 10 May 2019 13:08:27 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/ifzhushi/</guid>
       <category domain="http://localhost:1313/categories/grocery/">Grocery</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;span&gt;&amp;lt;!--[if !IE]&amp;gt;&amp;lt;!--&amp;gt; 除 IE 外都可识别 &amp;lt;!--&amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if IE]&amp;gt; 所有的 IE 可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if IE 6]&amp;gt; 仅 IE6 可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if lt IE 6]&amp;gt; IE6 以及 IE6 以下版本可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if gte IE 6]&amp;gt; IE6 以及 IE6 以上版本可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if IE 7]&amp;gt; 仅 IE7 可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if lt IE 7]&amp;gt; IE7 以及 IE7 以下版本可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if gte IE 7]&amp;gt; IE7 以及 IE7 以上版本可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if IE 8]&amp;gt; 仅 IE8 可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;lt;!--[if IE 9]&amp;gt; 仅 IE9 可识别 &amp;lt;![endif]--&amp;gt;&lt;/span&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -55,7 +55,7 @@
     <item>
       <title>Python 如何操作 Json？</title>
       <link>http://localhost:1313/posts/jsoninfo/</link>
-      <pubDate>Tue, 07 May 2019 18:42:47 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 07 May 2019 18:42:47 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/jsoninfo/</guid>
       <category domain="http://localhost:1313/categories/python/">Python</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Json（JavaScript Object Notation）它是一种轻量级的数据交换格式，具有数据格式简单，读写方便易懂等很多优点。许多主流的编程语言都在用它来进行前后端的数据传输，大大的简化了服务器和客户端的开发工作量。相对于 XML 来说，更加的轻量级，更方便解析，因此许多开发者都遵循 Json 格式来进行数据的传输和交换。今天我们详细介绍一下 Python 在 Json 的编解码方面的知识。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -63,7 +63,7 @@
     <item>
       <title>python 玩微信：初探 wxpy</title>
       <link>http://localhost:1313/posts/wxpy1/</link>
-      <pubDate>Sat, 20 Apr 2019 15:44:57 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 20 Apr 2019 15:44:57 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/wxpy1/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -72,7 +72,7 @@
     <item>
       <title>hexo-theme-next @modified LRH</title>
       <link>http://localhost:1313/posts/hexo-theme-next/</link>
-      <pubDate>Thu, 21 Mar 2019 16:43:19 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Thu, 21 Mar 2019 16:43:19 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/hexo-theme-next/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;!-- markdownlint-disable-file --&gt;&#xA;&lt;div class=&#34;details admonition danger open&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;details-summary admonition-title&#34;&gt;&lt;i class=&#34;icon fa-fw fa-solid fa-bolt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;危险&lt;i class=&#34;details-icon fa-solid fa-angle-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/div&gt;&lt;div class=&#34;details-content&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;admonition-content&#34;&gt;&lt;span style=&#34;color: #d9534f;font-size: 1.2em;&#34;&gt;&lt;strong&gt;如无必要，不再更新！（2019.09.13）&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&#xA;今晚我做出了一个慎重的决定，由于博主时间精力有限，需要更多的时间来工作和学习。所以我将&lt;strong&gt;放弃对 next 的主题的自定义修改&lt;/strong&gt;，next 主题官方已经更新到了 7.0+的版本，喜欢 next 主题风格的朋友可以在 github 更新。&lt;br&gt;&#xA;我这也算是上古版本了，版本差距实在过大，所以我也将放弃博客使用主题的更新。&lt;br&gt;&#xA;以下仍为当前博客使用主题，lib 资源已打包 github。&lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
@@ -88,7 +88,7 @@
     <item>
       <title>js 判断用户设备类型及平台</title>
       <link>http://localhost:1313/posts/js-device/</link>
-      <pubDate>Sat, 03 Nov 2018 23:35:44 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 03 Nov 2018 23:35:44 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/js-device/</guid>
       <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
       <description>&lt;p&gt;前端开发经常遇到需要判断用户的浏览设备，是 pc 端还是移动端，移动端使用的是什么手机系统？android、ios、ipad、windows phone 等等，有时候还需要知道用户浏览页面是在微信中打开还是在移动端浏览器中打开，等等一系列判断做一些相应的处理。&lt;/p&gt;</description>
@@ -96,7 +96,7 @@
     <item>
       <title>云服务器 CentOS 系统搭建 web 服务</title>
       <link>http://localhost:1313/posts/web-server-yun/</link>
-      <pubDate>Mon, 29 Oct 2018 09:15:58 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Mon, 29 Oct 2018 09:15:58 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/web-server-yun/</guid>
       <category domain="http://localhost:1313/categories/os/">OS</category>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;搭建-apache-web-服务&#34;&gt;&lt;span&gt;0.10 搭建 Apache web 服务&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#%e6%90%ad%e5%bb%ba-apache-web-%e6%9c%8d%e5%8a%a1&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&lt;ol&gt;&#xA;&lt;li&gt;安装 Apache 超文本传输协议 (HTTP) 服务器的主程序&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre&gt;&lt;code&gt;[root@VM_0_6_centos /]# yum install -y httpd&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;注意安装目录，可通过 cd 命令切换。&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;启动 HTTP 服务&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre&gt;&lt;code&gt;[root@VM_0_6_centos /]# systemctl start httpd.service&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果启动失败，可通过 systemctl status httpd.service 查看错误原因。&lt;br&gt;&#xA;启动成功，证明 http 服务已经可以使用，发现还需要把本地文件传到服务器。&lt;br&gt;&#xA;默认根目录&lt;code&gt;/var/www/html/&lt;/code&gt;&lt;/p&gt;</description>
@@ -104,7 +104,7 @@
     <item>
       <title>使用 js 准确获取当前页面 url 网址信息及 301 重定向实战</title>
       <link>http://localhost:1313/posts/href-301/</link>
-      <pubDate>Sun, 28 Oct 2018 14:22:00 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sun, 28 Oct 2018 14:22:00 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/href-301/</guid>
       <category domain="http://localhost:1313/categories/javascript/">JavaScript</category>
       <description>&lt;h3 class=&#34;heading-element&#34; id=&#34;获取链接转&#34;&gt;&lt;span&gt;0.7 获取链接（转）&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#%e8%8e%b7%e5%8f%96%e9%93%be%e6%8e%a5%e8%bd%ac&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/zhabayi/p/6419938.html&#34; target=&#34;_blank&#34; rel=&#34;external nofollow noopener noreferrer&#34;&gt;传送门&lt;i class=&#34;fa-solid fa-external-link-alt fa-fw fa-xs ms-1 text-secondary&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&#xA;在 WEB 开发中，时常会用到 javascript 来获取当前页面的 url 网址信息，在这里是我的一些获取 url 信息的小总结。&lt;/p&gt;</description>
@@ -112,7 +112,7 @@
     <item>
       <title>Vim 速查表</title>
       <link>http://localhost:1313/posts/vim/</link>
-      <pubDate>Fri, 31 Aug 2018 11:46:39 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Fri, 31 Aug 2018 11:46:39 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/vim/</guid>
       <category domain="http://localhost:1313/categories/memo/">Memo</category>
       <description>&lt;p&gt;Vim 速查表 - 帮你提高 N 倍效率&lt;/p&gt;</description>
@@ -120,7 +120,7 @@
     <item>
       <title>The equation-SGU106（扩展欧几里得）</title>
       <link>http://localhost:1313/posts/euclid/</link>
-      <pubDate>Fri, 10 Aug 2018 10:32:39 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Fri, 10 Aug 2018 10:32:39 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/euclid/</guid>
       <category domain="http://localhost:1313/categories/acm/">ACM</category>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;题意&#34;&gt;&lt;span&gt;10 题意&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#%e9%a2%98%e6%84%8f&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;给出 a,b,c,x1,x2,y1,y2，求满足 ax+by+c=0，且 x∈[x1,x2],y∈[y1,y2] 的整数解个数。&lt;/p&gt;</description>

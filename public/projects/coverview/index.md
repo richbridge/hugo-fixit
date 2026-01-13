@@ -92,6 +92,6 @@ cwebp -q 50 -lossless cover_*.png -o cover_lossless.webp
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/projects/coverview/  
 

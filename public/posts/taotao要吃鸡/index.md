@@ -110,6 +110,6 @@ int main()
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/taotao%E8%A6%81%E5%90%83%E9%B8%A1/  
 

@@ -78,6 +78,6 @@ Less 和 Sass 在語法上有些共性，比如下面這些：
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/less-sass-scss/  
 

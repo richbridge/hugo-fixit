@@ -26,6 +26,6 @@
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/%E7%8C%B4%E5%AD%90%E4%B8%8E%E5%93%AA%E5%90%92/  
 

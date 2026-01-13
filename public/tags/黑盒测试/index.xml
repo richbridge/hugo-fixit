@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>黑盒测试 - 标签 | 菠菜眾長</title>
+    <title>黑盒测试 - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>判断三角形的黑盒测试</title>
       <link>http://localhost:1313/posts/judgetriangle/</link>
-      <pubDate>Sun, 26 May 2019 18:50:53 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sun, 26 May 2019 18:50:53 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/judgetriangle/</guid>
       <category domain="http://localhost:1313/categories/grocery/">Grocery</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;黑盒测试着重测试软件功能，它并不涉及程序的内部结构和内容特性，主要根据规格说明，只依靠被测试程序的输入和输出之间关系或程序的功能来设计测试用例。&lt;br&gt;&#xA;白盒测试则清楚程序内部的结构以及是如何运作的，因此白盒测试需要对系统内部的结构和工作原理有一个清楚的了解。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>

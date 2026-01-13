@@ -219,6 +219,6 @@ Vim 速查表 - 帮你提高 N 倍效率
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/vim/  
 > 转载 URL: https://www.jianshu.com/p/6aa2e0e39f99

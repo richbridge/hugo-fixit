@@ -240,6 +240,6 @@ You can find the Embedding Vector 1536 values
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/d8ae205/  
 

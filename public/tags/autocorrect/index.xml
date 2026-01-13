@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AutoCorrect - 标签 | 菠菜眾長</title>
+    <title>AutoCorrect - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/autocorrect/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/autocorrect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>给你的 Markdown 挑挑刺</title>
       <link>http://localhost:1313/posts/markdownlint/</link>
-      <pubDate>Wed, 11 Oct 2023 14:26:48 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 11 Oct 2023 14:26:48 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/markdownlint/</guid>
       <category domain="http://localhost:1313/categories/spec/">程序猿的自我修养</category>
       <description>&lt;p&gt;会写 Markdown 的人很多，但写得好 Markdown 的人却很少。有没有什么工具能充当「秘书」，检查文件中的 Markdown 语法和风格，并且提出解决方案、自动修复问题，甚至自动补齐中英文之间的「盘古之白」呢？本文介绍的 Markdown 语法检查器就能做到。&lt;/p&gt;</description>

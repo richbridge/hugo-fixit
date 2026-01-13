@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ngrok - 标签 | 菠菜眾長</title>
+    <title>ngrok - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/ngrok/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ngrok/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>本地搭建网站服务器并穿透内网</title>
       <link>http://localhost:1313/posts/ngrok/</link>
-      <pubDate>Wed, 03 Apr 2019 19:29:43 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 03 Apr 2019 19:29:43 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/ngrok/</guid>
       <category domain="http://localhost:1313/categories/os/">OS</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;一直都想在自己电脑上搭建一个网站或者把自己的电脑做成服务器，今天终于简单实现了。还有很多知识需要学习，简单记录一下。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>

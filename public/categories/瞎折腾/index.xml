@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>瞎折腾 - 分类 | 菠菜眾長</title>
+    <title>瞎折腾 - 分类 | 樊尘刹记</title>
     <link>http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利用 Vercel 反代 Gravatar 实现镜像加速</title>
       <link>http://localhost:1313/projects/vercel-gravatar/</link>
-      <pubDate>Wed, 17 Apr 2024 12:51:35 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 17 Apr 2024 12:51:35 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/projects/vercel-gravatar/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <description>&lt;p&gt;在开发和部署网站时，经常会遇到加载外部资源较慢的问题。其中之一就是加载 Gravatar 头像图片时可能会受到网络延迟的影响。为了解决这个问题，我们可以利用 Vercel 平台的反向代理功能来实现镜像加速。&lt;/p&gt;</description>
@@ -22,7 +22,7 @@
     <item>
       <title>基于 leancloud-storage 实现的无后端记账本</title>
       <link>http://localhost:1313/projects/bill-note/</link>
-      <pubDate>Tue, 02 Mar 2021 21:46:40 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 02 Mar 2021 21:46:40 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/projects/bill-note/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <description>&lt;h2 class=&#34;heading-element&#34; id=&#34;起因&#34;&gt;&lt;span&gt;13 起因&lt;/span&gt;&#xD;&#xA;  &lt;a href=&#34;#%e8%b5%b7%e5%9b%a0&#34; class=&#34;heading-mark&#34;&gt;&#xD;&#xA;    &lt;svg class=&#34;octicon octicon-link&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&lt;div class=&#34;details admonition info open&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;details-summary admonition-title&#34;&gt;&lt;i class=&#34;icon fa-fw fa-solid fa-circle-info&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;起因&lt;i class=&#34;details-icon fa-solid fa-angle-right fa-fw&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/div&gt;&lt;div class=&#34;details-content&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;admonition-content&#34;&gt;&lt;p&gt;事情是這樣，年前和朋友一起合租了一個房子，然後捏，生活嘛，除了開心，當然是乾飯最大啦！&lt;/p&gt;&#xA;&lt;p&gt;自然就會有購物，買菜等日常消費，那就要記賬，一開始是各自記在手機的便簽上，最後再算一下；&lt;br&gt;&#xA;三個人，一共七种組合消費，排除各自消費的三種情況，也有四種 (&lt;code&gt;AB, AC, BC, ABC&lt;/code&gt;)。好麻煩啊！！！&lt;/p&gt;&#xA;&lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;</description>
@@ -30,7 +30,7 @@
     <item>
       <title>使用 Python 刷 csdn 访问量</title>
       <link>http://localhost:1313/posts/csdnvisiter/</link>
-      <pubDate>Thu, 26 Mar 2020 11:08:38 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Thu, 26 Mar 2020 11:08:38 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/csdnvisiter/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -39,7 +39,7 @@
     <item>
       <title>新冠疫情未返校未返工第 N 天之“自动打卡”</title>
       <link>http://localhost:1313/posts/daka/</link>
-      <pubDate>Wed, 25 Mar 2020 08:22:42 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 25 Mar 2020 08:22:42 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/daka/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -48,7 +48,7 @@
     <item>
       <title>用 MyQR 制作专属动态二维码 (py 和 exe 版本）</title>
       <link>http://localhost:1313/posts/qrcode/</link>
-      <pubDate>Sat, 27 Apr 2019 14:16:54 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 27 Apr 2019 14:16:54 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/qrcode/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -57,7 +57,7 @@
     <item>
       <title>python 爬取网站图片（图片链接相似）</title>
       <link>http://localhost:1313/posts/mmtimgpy/</link>
-      <pubDate>Mon, 22 Apr 2019 12:46:34 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Mon, 22 Apr 2019 12:46:34 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/mmtimgpy/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -66,7 +66,7 @@
     <item>
       <title>python 玩微信：初探 wxpy</title>
       <link>http://localhost:1313/posts/wxpy1/</link>
-      <pubDate>Sat, 20 Apr 2019 15:44:57 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 20 Apr 2019 15:44:57 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/wxpy1/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -75,7 +75,7 @@
     <item>
       <title>基本 python 实现的爬取微信好友头像，并拼接成大图</title>
       <link>http://localhost:1313/posts/wximgpy/</link>
-      <pubDate>Sat, 20 Apr 2019 13:32:58 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 20 Apr 2019 13:32:58 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/wximgpy/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -84,7 +84,7 @@
     <item>
       <title>宅音乐播放器</title>
       <link>http://localhost:1313/posts/player/</link>
-      <pubDate>Tue, 19 Mar 2019 23:32:56 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 19 Mar 2019 23:32:56 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/player/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/php/">PHP</category>
@@ -93,7 +93,7 @@
     <item>
       <title>“高逼格”C 语言画心</title>
       <link>http://localhost:1313/posts/heart/</link>
-      <pubDate>Wed, 15 Aug 2018 16:33:12 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 15 Aug 2018 16:33:12 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/heart/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <description>&lt;p&gt;七夕又快到了，分享一个曾经玩过的代码，用 C 语言画一个跳动的心，很有逼格有木有。&lt;/p&gt;&#xA;&lt;p&gt;&lt;figure&gt;&lt;a class=&#34;lightgallery&#34; target=&#34;_blank&#34; href=&#34;http://localhost:1313/images/remote/5b8680e407e09_14695341072961183661.gif&#34; title=&#34;大一在机房拍的图&#34; data-thumbnail=&#34;/images/remote/5b8680e407e09_14695341072961183661.gif&#34; data-sub-html=&#34;&lt;h2&gt;截图&lt;/h2&gt;&lt;p&gt;大一在机房拍的图&lt;/p&gt;&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#39;http://localhost:1313/images/remote/5b8680e407e09_14695341072961183661.gif&#39; alt=&#34;截图&#34; height=&#34;210&#34; width=&#34;210&#34;&gt;&lt;/a&gt;&lt;figcaption class=&#34;image-caption&#34;&gt;大一在机房拍的图&lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&lt;/p&gt;</description>

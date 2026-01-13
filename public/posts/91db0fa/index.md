@@ -127,6 +127,6 @@ Amazon Inspector 可以自动发现工作负载，例如 Amazon EC2 实例、容
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/91db0fa/  
 

@@ -86,6 +86,6 @@ void panduan(int a1,int b1,int c1)
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/judgetriangle/  
 

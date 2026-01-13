@@ -125,6 +125,6 @@ npm install https://github.com/CodeFalling/hexo-asset-image -- save
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/hexowrite/  
 

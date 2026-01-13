@@ -43,6 +43,6 @@
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92/  
 

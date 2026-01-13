@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTTP - 标签 | 菠菜眾長</title>
+    <title>HTTP - 标签 | 樊尘刹记</title>
     <link>http://localhost:1313/tags/http/</link>
-    <description>Hugo FixIt 作者，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
+    <description>红尘湮灭，唯有尘刹，喜欢瞎折腾、造轮子、写东西，分享一些前端开发中的所见、所闻、所思。</description>
     <generator>Hugo 0.154.2 &amp; FixIt v0.4.2-20260109141516-b29368c3</generator>
     <language>zh-CN</language>
-    <managingEditor>1024@lruihao.cn (Lruihao)</managingEditor>
-    <webMaster>1024@lruihao.cn (Lruihao)</webMaster>
+    <managingEditor>richffan@outlook.com (richfan)</managingEditor>
+    <webMaster>richffan@outlook.com (richfan)</webMaster>
     <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
     <lastBuildDate>Sun, 04 Jan 2026 22:17:04 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/http/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>新冠疫情未返校未返工第 N 天之“自动打卡”</title>
       <link>http://localhost:1313/posts/daka/</link>
-      <pubDate>Wed, 25 Mar 2020 08:22:42 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 25 Mar 2020 08:22:42 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/daka/</guid>
       <category domain="http://localhost:1313/categories/%E7%9E%8E%E6%8A%98%E8%85%BE/">瞎折腾</category>
       <category domain="http://localhost:1313/categories/python/">Python</category>
@@ -23,7 +23,7 @@
     <item>
       <title>RESTful</title>
       <link>http://localhost:1313/posts/restful/</link>
-      <pubDate>Thu, 14 Nov 2019 19:06:05 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Thu, 14 Nov 2019 19:06:05 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/restful/</guid>
       <category domain="http://localhost:1313/categories/spec/">程序猿的自我修养</category>
       <category domain="http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</category>
@@ -32,7 +32,7 @@
     <item>
       <title>python 实战：模拟 post 请求定时获取后台数据并打包发送至微信</title>
       <link>http://localhost:1313/posts/mx2wx/</link>
-      <pubDate>Sat, 11 May 2019 17:02:31 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Sat, 11 May 2019 17:02:31 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/mx2wx/</guid>
       <category domain="http://localhost:1313/categories/python/">Python</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;用 python 模拟 post 请求获取“麻小科技”示例酒店后台的数据，再打包发送至指定的微信群或者好友。&lt;br&gt;&#xA;要求每天早上 8 点定时把每个酒店的数据发送至每个酒店的微信工作群。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -40,7 +40,7 @@
     <item>
       <title>java 实现一个单线程的资源下载器</title>
       <link>http://localhost:1313/posts/singlethreaddown/</link>
-      <pubDate>Wed, 08 May 2019 20:55:02 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Wed, 08 May 2019 20:55:02 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/singlethreaddown/</guid>
       <category domain="http://localhost:1313/categories/java/">Java</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;实现一个简单的基于单线程的资源下载器，如图所示，用户可以任意指定下载资源的链接地址，系统根据该地址判断资源是否存在，如果存在，则将该资源下载到本地。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
@@ -48,7 +48,7 @@
     <item>
       <title>python 发送 post 请求进行简单的接口测试</title>
       <link>http://localhost:1313/posts/posttest/</link>
-      <pubDate>Tue, 07 May 2019 18:17:05 +0800</pubDate><author>1024@lruihao.cn (Lruihao)</author>
+      <pubDate>Tue, 07 May 2019 18:17:05 +0800</pubDate><author>richffan@outlook.com (richfan)</author>
       <guid>http://localhost:1313/posts/posttest/</guid>
       <category domain="http://localhost:1313/categories/python/">Python</category>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;通过 requests 可以向某个地址发送请求，可以用来做一些接口的测试；主要有两个方法：&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;requests.get()&lt;/li&gt;&#xA;&lt;li&gt;requests.post()&lt;br&gt;&#xA;最近帮朋友的项目做一个小需求，需要把后台数据定期打包发送到微信群，麻小科技涛哥给了我一个接口，post 访问。&lt;/li&gt;&#xA;&lt;/ul&gt;</description>

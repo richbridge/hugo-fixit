@@ -296,6 +296,6 @@ Python 的装饰器习惯用法允许在不修改函数本身的情况下向现�
 
 ---
 
-> 作者: [Lruihao](https://github.com/Lruihao)  
+> 作者: [richfan](https://github.com/richbridge)  
 > URL: http://localhost:1313/posts/cognitive-complexity/  
 
