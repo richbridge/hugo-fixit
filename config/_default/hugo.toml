@@ -9,6 +9,7 @@ title = "樊尘刹记"
 baseURL = "http://localhost:1313"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
+theme = ["FixIt", "cmpt-translate", "component-projects", "hugo-json-feed", "shortcode-mmt-netease", "cmpt-flyfish", "shortcode-rewards", "shortcode-caniuse", "hugo-atom-feed", "cmpt-mdevtools", "shortcode-asciinema", "shortcode-docs-bookmark", "shortcode-missing-translation", "shortcode-sponsor-log", "fixit-bundle"]
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 disableLanguages = ["en", "zh-tw"]
